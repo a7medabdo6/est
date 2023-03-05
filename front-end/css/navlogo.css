@@ -1,0 +1,32 @@
+.jss36 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.jss36 h5 {
+    margin: 0;
+    font-size: 16px;
+    font-family: Muli-Bold;
+    white-space: nowrap;
+}
+
+.jss36 h6 {
+    color: #989EA5;
+    margin: 0;
+    font-size: 16px;
+}
+
+.jss35 {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.jss35 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 100%;
+}

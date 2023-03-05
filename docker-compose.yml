@@ -1,0 +1,30 @@
+version: "3.1"
+services:
+  nestjs-app:
+    build:
+      context: ./back-end
+      dockerfile: Dockerfile
+    container_name: node_container
+    # image: a7medabdo6/care_managment
+    volumes:
+      - ./back-end:/App:ro
+    ports:
+      - "3000:3000"
+
+  nginx:
+    build:
+      context: ./
+      dockerfile: Dockerfile.nginx
+    # volumes:
+    #     - ./Care_Frontend/build:/usr/share/nginx/html:ro
+    ports:
+      - 80:80
+    restart: always
+    depends_on: # don't run untill mongoDb service will not start
+      - nestjs-app
+      # - frontend
+
+# Names our volume
+volumes:
+  db:
+    driver: local

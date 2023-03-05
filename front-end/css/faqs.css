@@ -1,0 +1,1220 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-weight: 400;
+  }
+  
+  body,
+  html {
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    font-family: Muli-Regular;
+    font-weight: 400;
+    color: #030e1a;
+    background-color: #fafcff;
+  }
+  
+.jss4 {
+  top: 0px;
+  width: 100%;
+  bm-item: [object Object];
+  z-index: 99;
+  position: relative;
+  direction: ltr;
+  background: #fff;
+  bm-overlay: [object Object];
+  box-shadow: 0px 3px 6px #00000014;
+}
+
+.MuiContainer-root {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.jss1 {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  justify-content: space-between;
+}
+
+.jss3 {
+  margin-left: 40px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.jss3 img {
+  width: 100%;
+}
+
+.jss5 {
+  margin: 10px 0;
+  display: flex;
+  font-size: 24px;
+  margin-left: 40px;
+}
+
+.jss14 {
+  color: #ffffff;
+  border: 1px solid #0e4c8d;
+  cursor: pointer;
+  display: flex;
+  outline: 0;
+  padding: 5px 25px;
+  font-size: 20px;
+  background: #0e4c8d;
+  transition: all 0.5s ease;
+  align-items: center;
+  font-family: Muli-SemiBold;
+  font-weight: 400;
+  line-height: 27px;
+  border-radius: 8px;
+  padding-bottom: 10px;
+}
+
+.jss4 .bm-overlay {
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.jss4 .bm-burger-button {
+  top: 23px;
+  left: 17px;
+  width: 28px;
+  height: 26px;
+  position: absolute;
+}
+
+.jss4 span.bm-burger-bars {
+  height: 8% !important;
+}
+
+.jss4 .bm-burger-bars {
+  background: #0e4c8d;
+}
+
+.jss4 .bm-menu-wrap {
+  top: 0px;
+  height: 100%;
+  position: fixed;
+}
+
+.jss4 .bm-menu {
+  padding: 0;
+  font-size: 1.15em;
+  background: #0e4c8d;
+  padding-top: 50px;
+}
+
+.jss4 .bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+  margin-top: 21px;
+}
+
+.jss4 .bm-item {
+  display: inline-block;
+  outline: 0;
+  padding: 0;
+}
+
+.MuiGrid-item {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.jss4 .bm-menu a {
+  color: #fff;
+  display: block;
+  text-align: left;
+  margin-bottom: 17px;
+}
+
+.jss4 .bm-menu img {
+  width: 180px;
+  margin-bottom: 30px;
+}
+
+.jss4 .bm-menu ul {
+  padding: 0 10px;
+}
+
+.jss4 li {
+  list-style: none;
+}
+
+.jss4 .bm-menu a {
+  color: #fff;
+  display: block;
+  text-align: left;
+  margin-bottom: 17px;
+}
+
+.jss4 li a {
+  color: #fff;
+}
+
+.jss4 .bm-cross-button {
+  top: 20px !important;
+  right: 40px !important;
+  width: 24px;
+  height: 24px;
+}
+
+.MuiContainer-root {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.jss26 {
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 1;
+  position: relative;
+  background: #fff;
+  box-shadow: 0px 3px 6px #030e1a0f;
+}
+
+.MuiGrid-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.MuiGrid-item {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.jss28 img {
+  height: 55px;
+  padding: 0;
+  margin-top: 6px;
+  margin-bottom: 3px;
+}
+
+.jss23 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jss24 {
+  color: white;
+  width: 100%;
+  padding: 0;
+  margin-top: 10px;
+  text-align: right;
+  margin-right: 60px;
+}
+
+.jss24 li {
+  color: #1e1e1e;
+  display: inline-block;
+  padding: 0;
+}
+
+.jss24 a {
+  color: #1e1e1e;
+  font-size: 21px;
+  font-family: Muli-Bold;
+  margin-right: 20px;
+}
+
+.jss14 {
+  color: #ffffff;
+  border: 1px solid #0e4c8d;
+  cursor: pointer;
+  display: flex;
+  outline: 0;
+  padding: 5px 25px;
+  font-size: 20px;
+  background: #0e4c8d;
+  transition: all 0.5s ease;
+  align-items: center;
+  font-family: Muli-SemiBold;
+  font-weight: 400;
+  line-height: 27px;
+  border-radius: 8px;
+  padding-bottom: 10px;
+}
+
+.mainContainer {
+    min-height: 400px;
+}
+
+.jss37 {
+    height: 100%;
+    background: #FAFCFF;
+    margin-bottom: 0;
+}
+
+.jss40 {
+    position: relative;
+}
+
+.jss41 {
+    height: 100%;
+    position: relative;
+}
+
+.jss41 img {
+    width: 100%;
+}
+
+.jss40 img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+}
+
+.jss37 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.jss42 {
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.jss41 h1, .jss41 p {
+    color: #fff;
+}
+
+.jss40 h1, .jss40 p {
+    color: #fff;
+}
+.jss40 h1 {
+    font-size: 40px;
+    margin-top: 0;
+    font-family: Muli-Bold;
+}
+.jss37 h1 {
+    font-size: 40px;
+}
+.jss41 h1, .jss41 p {
+    color: #fff;
+}
+.jss40 h1, .jss40 p {
+    color: #fff;
+}
+.jss40 h1 {
+    font-size: 40px;
+    margin-top: 0;
+    font-family: Muli-Bold;
+}
+.jss37 h1 {
+    font-size: 40px;
+}
+
+.MuiGrid-grid-xs-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+
+.MuiGrid-item {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.jss41 h1, .jss41 p {
+    color: #fff;
+}
+
+.jss40 h1, .jss40 p {
+    color: #fff;
+}
+.jss40 p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.jss37 p {
+    font-size: 17px;
+    line-height: 28px;
+}
+.jss41 h1, .jss41 p {
+    color: #fff;
+}
+.jss40 h1, .jss40 p {
+    color: #fff;
+}
+.jss40 p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.jss37 p {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.jss37 .HeaderButton {
+    display: none;
+}
+
+.jss38 {
+    height: 100%;
+    margin: 100px 0;
+    margin-bottom: 60px;
+}
+
+.MuiGrid-justify-xs-center {
+    justify-content: center;
+}
+
+.MuiGrid-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.MuiGrid-grid-xs-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+
+.jss43 {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.jss45 {
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    box-shadow: 0px 3px 6px #11509333;
+    margin-left: 0;
+    border-radius: 7px;
+    background-color: #fff;
+}
+
+.jss46 {
+    top: 3px;
+    color: #D8DBE2;
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    margin-left: 0;
+}
+
+.MuiSvgIcon-root {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+}
+
+.jss45 .MuiInputBase-root {
+    color: #D8DBE2;
+    width: 100%;
+    font-size: 18px;
+    padding-left: 40px;
+}
+
+.MuiInputBase-root {
+    color: rgba(0, 0, 0, 0.87);
+    cursor: text;
+    display: inline-flex;
+    position: relative;
+    font-size: 1rem;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.1876em;
+    letter-spacing: 0.00938em;
+}
+
+.jss45 .MuiInputBase-root input {
+    color: #030E1A;
+}
+
+.MuiInputBase-input {
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 1.1876em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.jss44 {
+    right: 0;
+    position: absolute;
+}
+
+.jss44 button {
+    color: #fff;
+    border: 0;
+    padding: 11px 20px;
+    font-size: 16px;
+    background: #0E4C8D;
+    margin-top: 7px;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
+.jss39 {
+    width: 100%;
+}
+
+
+.jss39 h3, .jss39 .MuiAccordionSummary-content.Mui-expanded, .jss39 .MuiAccordion-root.Mui-expanded {
+    margin: 0;
+}
+
+.MuiAccordion-root.Mui-expanded:first-child {
+    margin-top: 0;
+}
+.jss39 h3, .jss39 .MuiAccordionSummary-content.Mui-expanded, .jss39 .MuiAccordion-root.Mui-expanded {
+    margin: 0;
+}
+.jss39 .MuiPaper-root {
+    color: #030A16;
+    border: 1px solid #EDEDED;
+    margin: 25px 0;
+    padding: 15px 25px;
+    box-shadow: none;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.MuiAccordion-rounded:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.MuiAccordion-root.Mui-expanded {
+    margin: 16px 0;
+}
+.jss39 .MuiPaper-root {
+    color: #030A16;
+    border: 1px solid #EDEDED;
+    margin: 25px 0;
+    padding: 15px 25px;
+    box-shadow: none;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.MuiAccordion-rounded {
+    border-radius: 0;
+}
+.MuiAccordion-root {
+    position: relative;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.MuiPaper-elevation1 {
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.MuiPaper-rounded {
+    border-radius: 4px;
+}
+.MuiPaper-root {
+    color: rgba(0, 0, 0, 0.87);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #fff;
+}
+
+.jss39 .MuiAccordionSummary-root {
+    padding: 0;
+}
+
+
+.MuiAccordionSummary-root.Mui-expanded {
+    min-height: 64px;
+}
+.jss39 .MuiAccordionSummary-root {
+    padding: 0;
+}
+
+.MuiAccordionSummary-root {
+    display: flex;
+    padding: 0px 16px;
+    min-height: 48px;
+    transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.MuiButtonBase-root {
+    color: inherit;
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    display: inline-flex;
+    outline: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    border-radius: 0;
+    vertical-align: middle;
+    -moz-appearance: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.jss39 h3, .jss39 .MuiAccordionSummary-content.Mui-expanded, .jss39 .MuiAccordion-root.Mui-expanded {
+    margin: 0;
+}
+
+.jss39 h3, .jss39 .MuiAccordionSummary-content.Mui-expanded, .jss39 .MuiAccordion-root.Mui-expanded {
+    margin: 0;
+}
+
+.MuiAccordionSummary-content.Mui-expanded {
+    margin: 20px 0;
+}
+
+.MuiAccordionSummary-content {
+    margin: 12px 0;
+    display: flex;
+    flex-grow: 1;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.jss39 .MuiAccordionSummary-content.Mui-expanded h2 {
+    color: #0e4c8d;
+    transition: 0.3s;
+}
+
+.jss39 h2 {
+    color: #030E1A;
+    margin: 0;
+    font-size: 21px;
+    font-family: Muli-Bold;
+}
+
+.MuiAccordionSummary-expandIcon.Mui-expanded {
+    transform: rotate(180deg);
+}
+
+.MuiAccordionSummary-expandIcon {
+    transform: rotate(0deg);
+    transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.MuiIconButton-edgeEnd {
+    margin-right: -12px;
+}
+
+.MuiIconButton-root {
+    flex: 0 0 auto;
+    color: rgba(0, 0, 0, 0.54);
+    padding: 12px;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 50%;
+}
+
+.MuiButtonBase-root {
+    color: inherit;
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    display: inline-flex;
+    outline: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    border-radius: 0;
+    vertical-align: middle;
+    -moz-appearance: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.MuiIconButton-label {
+    width: 100%;
+    display: flex;
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+.jss39 svg.MuiSvgIcon-root {
+    color: #0e4c8d;
+    font-size: 25px;
+}
+
+.MuiSvgIcon-root {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+}
+
+.MuiTouchRipple-root {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
+    position: absolute;
+    border-radius: inherit;
+    pointer-events: none;
+}
+
+.MuiCollapse-entered {
+    height: auto;
+    overflow: visible;
+}
+
+.MuiCollapse-container {
+    height: 0;
+    overflow: hidden;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.MuiCollapse-wrapper {
+    display: flex;
+}
+
+.MuiCollapse-wrapperInner {
+    width: 100%;
+}
+
+.jss39 .MuiAccordionDetails-root {
+    padding: 0;
+}
+
+
+.MuiAccordionDetails-root {
+    display: flex;
+    padding: 8px 16px 16px;
+}
+
+.MuiGrid-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.MuiGrid-spacing-xs-3 {
+    width: calc(100% + 24px);
+    margin: -12px;
+}
+
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+    padding: 12px;
+}
+
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+    padding: 12px;
+}
+
+.MuiGrid-grid-xs-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+
+.MuiGrid-item {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.jss39 h3, .jss39 .MuiAccordionSummary-content.Mui-expanded, .jss39 .MuiAccordion-root.Mui-expanded {
+    margin: 0;
+}
+.jss39 h3 {
+    font-size: 18px;
+}
+
+.jss38 h1, .jss38 p {
+    color: #1E1E1E;
+}
+
+.jss37 p {
+    font-size: 17px;
+    line-height: 28px;
+}
+.jss38 h1, .jss38 p {
+    color: #1E1E1E;
+}
+.jss37 p {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+    padding: 12px;
+}
+.MuiGrid-grid-xs-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+
+.MuiGrid-item {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.jss39 .MuiPaper-root {
+    color: #030A16;
+    border: 1px solid #EDEDED;
+    margin: 25px 0;
+    padding: 15px 25px;
+    box-shadow: none;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.jss39 .MuiPaper-root {
+    color: #030A16;
+    border: 1px solid #EDEDED;
+    margin: 25px 0;
+    padding: 15px 25px;
+    box-shadow: none;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.MuiAccordion-rounded {
+    border-radius: 0;
+}
+
+.MuiAccordion-root {
+    position: relative;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.MuiPaper-elevation1 {
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+.MuiPaper-rounded {
+    border-radius: 4px;
+}
+
+.MuiPaper-root {
+    color: rgba(0, 0, 0, 0.87);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #fff;
+}
+
+.jss39 .MuiAccordionSummary-root {
+    padding: 0;
+}
+
+.jss39 .MuiAccordionSummary-root {
+    padding: 0;
+}
+
+.MuiAccordionSummary-root {
+    display: flex;
+    padding: 0px 16px;
+    min-height: 48px;
+    transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.MuiButtonBase-root {
+    color: inherit;
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    display: inline-flex;
+    outline: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    border-radius: 0;
+    vertical-align: middle;
+    -moz-appearance: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.MuiAccordionSummary-content {
+    margin: 12px 0;
+    display: flex;
+    flex-grow: 1;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.jss39 h2 {
+    color: #030E1A;
+    margin: 0;
+    font-size: 21px;
+    font-family: Muli-Bold;
+}
+
+.MuiAccordionSummary-expandIcon {
+    transform: rotate(0deg);
+    transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.MuiIconButton-edgeEnd {
+    margin-right: -12px;
+}
+.MuiIconButton-root {
+    flex: 0 0 auto;
+    color: rgba(0, 0, 0, 0.54);
+    padding: 12px;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 50%;
+}
+
+.jss47 {
+    color: #a6a6a6;
+    z-index: 3;
+    background: #0E4C8D;
+    margin-top: 0;
+    padding-top: 70px;
+    padding-bottom: 34px;
+}
+
+
+.jss47 {
+    color: #a6a6a6;
+    z-index: 3;
+    background: #0E4C8D;
+    margin-top: 0;
+    padding-top: 70px;
+    padding-bottom: 34px;
+}
+
+.MuiGrid-spacing-xs-2 {
+    width: calc(100% + 16px);
+    margin: -8px;
+}
+
+.MuiGrid-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+  
+.MuiGrid-spacing-xs-2 > .MuiGrid-item {
+    padding: 8px;
+}
+
+.MuiGrid-spacing-xs-2 > .MuiGrid-item {
+    padding: 8px;
+}
+
+.MuiGrid-grid-xs-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+
+.MuiGrid-item {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.jss47 li {
+    list-style: none;
+}
+
+.jss49 img {
+    width: 100%;
+    margin-top: 25px;
+}
+.MuiGrid-grid-xs-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+.jss53 {
+    padding: 0;
+    margin-top: 70px;
+    text-align: center;
+}
+.MuiGrid-spacing-xs-2 > .MuiGrid-item {
+    padding: 8px;
+}
+
+.jss50 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jss51 {
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.jss47 li {
+    list-style: none;
+}
+.jss47 svg {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.jss48 {
+    text-align: center;
+}
+
+.jss48 p {
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+/* ******************************************************** min 600 **************************************************************** */
+
+@media (min-width: 600px) {
+  .MuiContainer-root {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .MuiGrid-grid-sm-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+.MuiGrid-grid-sm-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+}
+.MuiGrid-grid-sm-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+}
+.MuiGrid-grid-sm-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+}
+.MuiGrid-grid-sm-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+}
+}
+
+/* ******************************************************** max 768 **************************************************************** */
+@media (max-width: 768px) {
+  .jss26 {
+    display: none;
+  }
+}
+
+/* ******************************************************** min 769 **************************************************************** */
+@media (min-width: 769px) {
+  .jss4 {
+    display: none;
+  }
+}
+
+/* ******************************************************** min 960 **************************************************************** */
+
+@media (min-width: 960px) {
+  .MuiGrid-grid-md-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-md-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-md-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+}
+.MuiGrid-grid-md-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+}
+}
+
+/* ******************************************************** min 1280 **************************************************************** */
+
+@media (min-width: 1280px) {
+  .MuiContainer-maxWidthLg {
+    max-width: 1280px;
+  }
+  .MuiContainer-maxWidthLg {
+    width: 95% !important;
+  }
+  .MuiGrid-grid-lg-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-lg-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-lg-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-lg-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.MuiGrid-grid-lg-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+}
+.MuiGrid-grid-lg-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+}
+.MuiGrid-grid-lg-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+}
+.MuiGrid-grid-lg-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+}
+.MuiGrid-grid-lg-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+}
+.MuiGrid-grid-lg-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+}
+}
+
+@media (max-width: 768px)
+{
+    .jss43 {
+        width: 100%;
+        padding-bottom: 20px;
+    }   
+}
+
+
+@media (max-width: 767px){
+    .jss49 img {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+        margin-top: 25px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .jss53 {
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .jss49 img {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .jss51 {
+        display: flex;
+        padding: 0;
+    }
+
+    .jss48 p {
+        font-size: 16px;
+        text-align: center;
+        line-height: 27px;
+        margin-left: 0;
+    }
+    .jss53 {
+        margin-top: 20px;
+        text-align: right;
+    }
+    .jss47 svg {
+        margin-top: 15px;
+        margin-left: 0;
+        margin-right: 30px;
+    }
+
+    .jss48 {
+        margin-top: 20px;
+    }
+    .jss48 p {
+        font-size: 16px;
+        text-align: center;
+        line-height: 27px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px){
+    .jss26 {
+        display: none;
+    }
+}

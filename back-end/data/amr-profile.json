@@ -1,0 +1,31 @@
+{
+  "amrpersonalInfo": {
+    "NickName": "AMR ABDELGAWAD",
+    "EnglishName": "AMR ABDELGAWAD ALI ABDELGAWAD",
+    "ArabicName": "عمرو عبدالجواد على عبدالجواد",
+    "Gender": "Male",
+    "DateOfBirth": "20 / 2 / 2005",
+    "NationalIDNumber": "30502200100239",
+    "PassportNumber": "A23087438",
+    "EmailAddress": "amrabdo33877@gmail.com",
+    "Nationality": "Egypt",
+    "MobileNumber": "12346",
+    "Landline": "12346",
+    "CountryCity": "cairo",
+    "Address1": "mokkatam",
+    "Address2": "",
+    "literacy": "729",
+    "mathematical": "731",
+    "math": "720",
+    "Biology": "725"
+  },
+  "amrParentInformation": {
+    "Email": "radwaomrahmed123@gmail.com",
+    "Relationship": "mother"
+  },
+  "amrSchoolInformation": {
+    "SchoolName": "Manarat El Mostaqbal American School",
+    "Grade": "132",
+    "YearOfGraduation": "2011"
+  }
+}

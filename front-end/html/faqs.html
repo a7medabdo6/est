@@ -1,0 +1,3229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/faqs.css"/>
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="../css/side-nav.css"/>
+
+
+    <title>FAQs</title>
+  </head>
+  <body>
+    <div id="__next">
+      <div class="jss4">
+        <div class="MuiContainer-root MuiContainer-maxWidthLg">
+          <div class="jss1">
+            <div class="jss3">
+              <a href="../index.html"
+                ><img src="../assist/images/3.jpg" alt="est"
+              /></a>
+            </div>
+            <div class="jss5">
+              <div>
+                <div><button class="jss14 loginBtn">Login</button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="bm-overlay"
+            style="
+              position: fixed;
+              z-index: 1000;
+              width: 100%;
+              height: 100%;
+              background: rgba(0, 0, 0, 0.3);
+              opacity: 0;
+              -moz-transform: translate3d(100%, 0, 0);
+              -ms-transform: translate3d(100%, 0, 0);
+              -o-transform: translate3d(100%, 0, 0);
+              -webkit-transform: translate3d(100%, 0, 0);
+              transform: translate3d(100%, 0, 0);
+              transition: opacity 0.3s, transform 0s 0.3s;
+            "
+          ></div>
+          <div>
+            <div class="bm-burger-button" style="z-index: 1000">
+              <button
+              onclick="openNav()"
+                id="react-burger-menu-btn"
+                style="
+                  position: absolute;
+                  left: 0;
+                  top: 0;
+                  z-index: 1;
+                  width: 100%;
+                  height: 100%;
+                  margin: 0;
+                  padding: 0;
+                  border: none;
+                  font-size: 0;
+                  background: transparent;
+                  cursor: pointer;
+                "
+              >
+                Open Menu</button
+              ><span
+                ><span
+                  class="bm-burger-bars"
+                  style="
+                    position: absolute;
+                    height: 20%;
+                    left: 0;
+                    right: 0;
+                    top: 0%;
+                    opacity: 1;
+                  "
+                ></span
+                ><span
+                  class="bm-burger-bars"
+                  style="
+                    position: absolute;
+                    height: 20%;
+                    left: 0;
+                    right: 0;
+                    top: 40%;
+                    opacity: 1;
+                  "
+                ></span
+                ><span
+                  class="bm-burger-bars"
+                  style="
+                    position: absolute;
+                    height: 20%;
+                    left: 0;
+                    right: 0;
+                    top: 80%;
+                    opacity: 1;
+                  "
+                ></span
+              ></span>
+            </div>
+          </div>
+          <div
+            id=""
+            class="bm-menu-wrap"
+            style="
+              position: fixed;
+              right: inherit;
+              z-index: 1100;
+              width: 300px;
+              height: 100%;
+              -moz-transform: translate3d(-300px, 0, 0);
+              -ms-transform: translate3d(-300px, 0, 0);
+              -o-transform: translate3d(-300px, 0, 0);
+              -webkit-transform: translate3d(-300px, 0, 0);
+              transform: translate3d(-300px, 0, 0);
+              transition: transform 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+            "
+            aria-hidden="true"
+          >
+            <div
+              class="bm-menu"
+              style="height: 100%; box-sizing: border-box; overflow: auto"
+            >
+              <nav class="bm-item-list" style="height: 100%">
+                <div
+                  class="MuiGrid-root bm-item MuiGrid-item MuiGrid-grid-lg-9"
+                  style="
+                    display: block;
+                    -moz-transform: translate3d(0, 500px, 0);
+                    -ms-transform: translate3d(0, 500px, 0);
+                    -o-transform: translate3d(0, 500px, 0);
+                    -webkit-transform: translate3d(0, 500px, 0);
+                    transform: translate3d(0, 500px, 0);
+                    transition: transform 0s 0.2s cubic-bezier(0.7, 0, 0.3, 1);
+                  "
+                  tabindex="-1"
+                >
+                  <a href="/"
+                    ><img src="../assist/images/2.png" alt="est" />
+                  </a>
+                  <ul>
+                    <li><a href="/html/about.html">About</a></li>
+                    <li><a href="/html/news.html">News</a></li>
+                    <li>
+                      <a href="/html/news.html"
+                        >Teacher Resources</a
+                      >
+                    </li>
+                    <li><a href="/html/faqs.html">FAQs</a></li>
+                    <li>
+                      <a href="mailto:tests@egyptianscholastictest.com"
+                        >Contact Us</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <div>
+              <div
+                class="bm-cross-button"
+                style="
+                  position: absolute;
+                  width: 24px;
+                  height: 24px;
+                  right: 8px;
+                  top: 8px;
+                "
+              >
+                <button
+                  id="react-burger-cross-btn"
+                  style="
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    z-index: 1;
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                    border: none;
+                    font-size: 0;
+                    background: transparent;
+                    cursor: pointer;
+                  "
+                  tabindex="-1"
+                >
+                  Close Menu</button
+                ><img
+                  src="../../static/images/cancel.svg"
+                  class="bm-cross"
+                  style="width: 100%; height: 100%"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="MuiContainer-root MuiContainer-maxWidthLg">
+          <div class="MuiContainer-root MuiContainer-maxWidthLg">
+            <div class="MuiContainer-root MuiContainer-maxWidthLg"></div>
+          </div>
+          <div class="MuiContainer-root MuiContainer-maxWidthLg"></div>
+        </div>
+      </div>
+      <div class="jss26">
+        <div class="MuiContainer-root MuiContainer-maxWidthLg">
+          <div class="MuiGrid-root MuiGrid-container">
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
+            >
+              <div class="jss28">
+                <a href="./index.html"
+                ><img src="../assist/images/3.jpg" alt="est"
+              /></a>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+            >
+              <div class="jss23">
+                <ul class="jss24">
+                    <li><a href="/html/about.html">About</a></li>
+                    <li><a href="/html/news.html">News</a></li>
+                    <li>
+                      <a href="/html/news.html"
+                        >Teacher Resources</a
+                      >
+                    </li>
+                    <li><a href="/html/faqs.html">FAQs</a></li>
+                    <li>
+                      <a href="mailto:tests@egyptianscholastictest.com"
+                        >Contact Us</a
+                      >
+                    </li>
+                  </li>
+                </ul>
+                <div><button class="jss14 loginBtn">Login</button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="MuiContainer-root MuiContainer-maxWidthLg">
+          <div class="MuiContainer-root MuiContainer-maxWidthLg">
+            <div class="MuiContainer-root MuiContainer-maxWidthLg"></div>
+          </div>
+          <div class="MuiContainer-root MuiContainer-maxWidthLg"></div>
+        </div>
+      </div>
+      <div class="mainContainer">
+        <div class="jss37">
+          <div class="jss40">
+            <div class="jss41">
+              <img src="../assist/images/6.png" />
+              <div class="jss42">
+                <div class="MuiContainer-root MuiContainer-maxWidthLg">
+                  <h1><br /></h1>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-lg-6"
+                  >
+                    <p></p>
+                    <div class="undefined HeaderButton">
+                      <a href="/registration/userdata"
+                        ><div>
+                          <button class="jss14">
+                            Register now<!-- -->
+                            <svg
+                              stroke="currentColor"
+                              fill="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 16 16"
+                              height="1em"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M8.146 4.646a.5.5 0 01.708 0l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.793 8 8.146 5.354a.5.5 0 010-.708z"
+                                clip-rule="evenodd"
+                              ></path>
+                              <path
+                                fill-rule="evenodd"
+                                d="M4 8a.5.5 0 01.5-.5H11a.5.5 0 010 1H4.5A.5.5 0 014 8z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </button></div
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="MuiContainer-root MuiContainer-maxWidthLg">
+            <div class="jss38">
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-lg-11"
+                >
+                  <div>
+                    <div>
+                      <div class="jss43">
+                        <div class="jss45">
+                          <div class="jss46">
+                            <svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                              ></path>
+                            </svg>
+                          </div>
+                          <div>
+                            <div class="MuiInputBase-root">
+                              <input
+                                type="text"
+                                placeholder="Search…"
+                                class="MuiInputBase-input"
+                                value=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="jss44"><button>Search</button></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="jss39">
+                    <div
+                      class="MuiPaper-root MuiAccordion-root Mui-expanded MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root Mui-expanded"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="true"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content Mui-expanded">
+                          <h2>What is the EST?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon Mui-expanded MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path d="M19 13H5v-2h14v2z"></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-entered"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        The Egyptian Scholastic Test (EST) is
+                                        developed by experts in 5 continents and
+                                        validated by experts in the USA. It is
+                                        developed especially for Egyptian
+                                        students in the American Diploma
+                                        division. The EST is a computer-based
+                                        test that measures the readiness of the
+                                        students to enter university and
+                                        assesses the level of students in
+                                        Reading, Writing and Math.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>Who delivers the EST?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        The test is created by experts across 5
+                                        continents and validated by the EST
+                                        Board in the USA. It is designed
+                                        specifically to measure the skills and
+                                        knowledge acquired by students in the
+                                        American education system in Egypt
+                                        against common core standards.
+                                      </p>
+                                      <p>
+                                        It is a computer-based test delivered in
+                                        collaboration with Pearson.
+                                      </p>
+                                      <p>
+                                        The EST seeks to embody and implement
+                                        the most sophisticated, up-to-date
+                                        assessment with a suite of assessments
+                                        that includes EST I and EST II.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>
+                            What is the difference between the EST I and the EST
+                            II?
+                          </h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        The EST I is designed to enable all
+                                        American Diploma students to apply for
+                                        Egyptian universities, while the EST II
+                                        is required by certain colleges
+                                        (practical colleges like the Faculty of
+                                        Medicine &amp; Engineering) to test
+                                        skills in Science and Math subjects
+                                        (Math level 1, Math level 2, Biology,
+                                        Physics, Chemistry).
+                                      </p>
+                                      <p>
+                                        The EST I includes three mandatory
+                                        sections: Reading, Writing and Language,
+                                        and Math.
+                                      </p>
+                                      <p>
+                                        The EST I tackles communication skills,
+                                        comprehension, critical and logical
+                                        reasoning; all these are basic
+                                        requirements for a university student.
+                                        The EST I also includes an optional
+                                        essay section measuring students'
+                                        language writing skills.
+                                      </p>
+                                      <p>
+                                        The EST II is a subject-based test in
+                                        Science and Math. The EST subject tests
+                                        cover Math, Biology, Physics, and
+                                        Chemistry, with each subject test taken
+                                        separately.
+                                      </p>
+                                      <p>
+                                        The EST II measures basic scientific
+                                        knowledge, scientific reasoning, and
+                                        higher-order thinking skills, proving
+                                        the abilities and capabilities of the
+                                        student to pursue education in specific
+                                        majors related to engineering, science
+                                        and health care. The choice of subject
+                                        tests depends on the majors the students
+                                        are applying for.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>Why do I need to take the EST?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        The Egyptian Ministry of Higher
+                                        Education has set guidelines for
+                                        admission to universities with the
+                                        American High School Diploma which state
+                                        that students should take the EST I in
+                                        order to be admitted to public or
+                                        national universities and institutions.
+                                        For some majors, students should take
+                                        both the EST I and EST II.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>
+                            How can I study for the EST? What sources can I use?
+                          </h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        The main study materials needed to
+                                        prepare for the EST is the curriculum
+                                        material which is taught in the American
+                                        Diploma schools.
+                                      </p>
+                                      <p>
+                                        The student does not need private
+                                        lessons. The school and the school
+                                        teachers can provide the student with
+                                        all the learning opportunities needed to
+                                        get excellent EST grades.
+                                      </p>
+                                      <p>
+                                        The students can also check sample EST
+                                        tests using the following links:
+                                      </p>
+                                      <p>
+                                        EST I:
+                                        <a
+                                          href="https://bit.ly/EST1Resources"
+                                          rel="noopener noreferrer"
+                                          target="_blank"
+                                          >https://bit.ly/EST1Resources</a
+                                        >
+                                      </p>
+                                      <p>
+                                        EST II:
+                                        <a
+                                          href="https://bit.ly/EST2Resources"
+                                          rel="noopener noreferrer"
+                                          target="_blank"
+                                          >https://bit.ly/EST2Resources</a
+                                        >
+                                      </p>
+                                      <p>
+                                        The above links contain the following:
+                                      </p>
+                                      <ul>
+                                        <li>
+                                          Previous papers for the EST I and the
+                                          EST II
+                                        </li>
+                                        <li>Answer key for guidance</li>
+                                        <li>
+                                          Links to sample digital activities
+                                          with detailed answers to some of the
+                                          previous test questions
+                                        </li>
+                                        <li>
+                                          Links to material which fits the EST
+                                          and is FREE and available globally on
+                                          the internet
+                                        </li>
+                                      </ul>
+                                      <p>
+                                        It is worth noting that the official EST
+                                        scoring does not penalize wrong answers.
+                                        In other words, the total raw score is
+                                        the sum of the number of questions
+                                        answered correctly.
+                                      </p>
+                                      <p>
+                                        Detailed information can be found here:
+                                        <u style="color: rgb(0, 102, 204)"
+                                          >https://www.egyptianscholastictest.com/news/details?id=6178295adcb6424972fc1ba8&amp;filter=Study+Material</u
+                                        >
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>How are the exams scored?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        The EST exams are fully electronic. The
+                                        exams are authored by experts from
+                                        around the world and reviewed by a board
+                                        of experts based in the USA. Once the
+                                        tests are administered, the scores are
+                                        assigned automatically to each item to
+                                        produce the student scores, with the
+                                        exception of the optional essay which is
+                                        scored manually. These scores are then
+                                        reviewed to apply the psychometric
+                                        analysis by the EST Board of Experts
+                                        before the results are issued.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>What is the EST test structure?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        The EST assesses the student’s knowledge
+                                        of the American Diploma program and the
+                                        exams are structured as follows:
+                                      </p>
+                                      <p>EST I:</p>
+                                      <p>
+                                        – Literacy Test 1 (Writing and
+                                        Language): 35 minutes - 44 multiple
+                                        choice questions
+                                      </p>
+                                      <p>
+                                        – Literacy Test 2 (Reading): 65 minutes
+                                        - 52 multiple choice questions
+                                      </p>
+                                      <p>
+                                        – Math: 90 minutes - 45 multiple choice
+                                        questions and 13 short constructive
+                                        response questions (Graphing or
+                                        scientific calculator is allowed for
+                                        some questions)
+                                      </p>
+                                      <p>– Essay (Optional): 50 minutes</p>
+                                      <p>EST II:</p>
+                                      <p>
+                                        – Math Level 1: 60 minutes - 50 multiple
+                                        choice questions (Graphing or scientific
+                                        calculator is allowed for part 2 of the
+                                        exam)
+                                      </p>
+                                      <p>
+                                        – Biology: 60 minutes - 80 multiple
+                                        choice questions (Calculator is NOT
+                                        allowed)
+                                      </p>
+                                      <p>
+                                        – Physics: 60 minutes - 75 multiple
+                                        choice questions (Calculator is NOT
+                                        allowed)
+                                      </p>
+                                      <p>
+                                        – Chemistry: 60 minutes - 85 multiple
+                                        choice questions (Calculator is NOT
+                                        allowed)
+                                      </p>
+                                      <p>
+                                        – Math Level 2: 60 minutes - 50 multiple
+                                        choice questions (Graphing or scientific
+                                        calculator is allowed)
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>
+                            How can American Diploma students who are studying
+                            abroad, but want to apply for Egyptian universities,
+                            take the EST exams?
+                          </h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        At the moment the exams can be taken
+                                        only in Egypt. The EST Board is
+                                        expanding its operations to support
+                                        Egyptian students abroad, and will
+                                        announce all updates on the EST website.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>Who should take the EST II?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        A holder of an American High School
+                                        Diploma who wants to apply to the
+                                        faculties or institutes of Medicine,
+                                        Pharmacy, Dentistry, Physiotherapy,
+                                        Veterinary Medicine, Nursing,
+                                        Engineering, Information Technology,
+                                        Computer, Fine Arts (Architecture
+                                        section), and Urban Planning, has to
+                                        take two subjects in EST II, in addition
+                                        to EST I.
+                                      </p>
+                                      <p>
+                                        For all other majors, only EST I is
+                                        enough.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>Which subjects should I take in the EST II?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        For the faculties or institutes of
+                                        Medicine, Pharmacy, Dentistry,
+                                        Physiotherapy, Veterinary Medicine, and
+                                        Nursing, the two subjects required are
+                                        Biology and one of the following:
+                                        Mathematics 1, Physics, Chemistry, or
+                                        Mathematics 2.
+                                      </p>
+                                      <p>
+                                        For the faculties or institutes of
+                                        Engineering, Information Technology,
+                                        Computer, Fine Arts (Architecture
+                                        section), and Urban Planning, the two
+                                        subjects required are Math Level 1 or
+                                        Math Level 2 and one of the following:
+                                        Physics, Chemistry or Biology.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>
+                            Will the EST allow me to apply to universities
+                            abroad?
+                          </h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        The EST is an Egyptian entrance exam for
+                                        Egyptian universities. Its results
+                                        cannot be used for applications to
+                                        non-Egyptian universities until now. In
+                                        the vast majority of cases, the American
+                                        Diploma students are applying for an
+                                        Egyptian university. But the EST Board
+                                        is still working with international
+                                        bodies to get the EST certification
+                                        recognized internationally.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>
+                            How long does it take to issue the EST results?
+                          </h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        The results are usually issued within
+                                        two weeks of the exam. The students are
+                                        emailed their unofficial results. If
+                                        they require the certified report,
+                                        students are given the opportunity to
+                                        order any score report (including older
+                                        ones) for a limited time after issuing
+                                        the scores of each trial.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>What are the EST fees?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>Test Services</p>
+                                      <p>EST I:</p>
+                                      <p>– EST I without Essay: 2000 LE</p>
+                                      <p>– EST I with Essay: 2240 LE</p>
+                                      <p>EST II:</p>
+                                      <p>– Math Level 1: 1000 LE</p>
+                                      <p>– Biology: 1000 LE</p>
+                                      <p>– Physics: 1000 LE</p>
+                                      <p>– Chemistry: 1000 LE</p>
+                                      <p>– Math Level 2: 1000 LE</p>
+                                      <p>
+                                        All payments are non-transferable, but
+                                        students can cancel their tests before
+                                        the trial registration deadline and get
+                                        a refund for a fee of 480 LE for EST I
+                                        and 480 LE for EST II (<span
+                                          style="color: black"
+                                          >also applicable if canceling 1
+                                          subject in EST II)</span
+                                        >. Changing from EST I with Essay to EST
+                                        I without Essay (within the registration
+                                        deadline) results in forfeiting the 240
+                                        LE difference. Refunds take 5-6 weeks to
+                                        be processed.
+                                      </p>
+                                      <p>
+                                        Cancellation after the trial
+                                        registration deadline or absence from an
+                                        exam for any reason results in
+                                        forfeiting the full payment.
+                                      </p>
+                                      <p>Other Services</p>
+                                      <p>– EST I Score Report: 1600 LE</p>
+                                      <p>– EST II Score Report: 1600 LE</p>
+                                      <p>– Recheck Test Score: 400 LE</p>
+                                      <p>– Change Personal Info: 640 LE</p>
+                                      <p>All payments are non-refundable.</p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>Can I cancel my exam and get a refund?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        Payments are non-transferable, but
+                                        students can cancel their tests before
+                                        the trial registration deadline and get
+                                        a refund for a fee of 480 LE for EST I
+                                        and 480 LE for EST II (<span
+                                          style="color: black"
+                                          >also applicable if canceling 1
+                                          subject in EST II)</span
+                                        >. Changing from EST I with Essay to EST
+                                        I without Essay (within the registration
+                                        deadline) results in forfeiting the 240
+                                        LE difference. Refunds take 5-6 weeks to
+                                        be processed.
+                                      </p>
+                                      <p>
+                                        Cancellation after the trial
+                                        registration deadline or absence from an
+                                        exam for any reason results in
+                                        forfeiting the full payment.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>What is the validity of the EST?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        The EST I and EST II scores can be used
+                                        for up to 3 years after the test
+                                        results, although students need to refer
+                                        to the Supreme Council of Universities
+                                        guidelines to confirm the timelines for
+                                        applying to schools.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>
+                            How can I get an official certified copy of my score
+                            report?
+                          </h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        Students do not need to certify a trial
+                                        directly after its scores are out. They
+                                        can wait until they take all the trials
+                                        that they want and then order a
+                                        certified copy of their selected score
+                                        report.
+                                      </p>
+                                      <p>
+                                        Students are given the opportunity to
+                                        order any score report (including older
+                                        ones) for a limited time after issuing
+                                        the scores of each trial.
+                                      </p>
+                                      <p>
+                                        To order a report, please access your
+                                        EST account and visit the "Services"
+                                        link in the Student Dashboard.
+                                      </p>
+                                      <p>
+                                        If you have not created an account on
+                                        the new website which we launched in May
+                                        2021, please create an account using the
+                                        same email that you used in your
+                                        previous attempts.
+                                        <strong style="color: rgb(230, 0, 0)"
+                                          >The data in your current EST account
+                                          is what will appear in your report, so
+                                          make sure it is accurate and
+                                          complete.</strong
+                                        >
+                                      </p>
+                                      <p>
+                                        When you select each report, please
+                                        specify the email address that you used
+                                        for that exam even if it matches the
+                                        email address on the account. Payments
+                                        are non-refundable and non-transferable.
+                                        If you select a wrong report or do not
+                                        indicate the correct email address, you
+                                        risk losing the payment.
+                                      </p>
+                                      <p>
+                                        After the deadline for ordering the
+                                        official score report is over, reports
+                                        are printed and sent to the Ministry of
+                                        Education and Technical Education for
+                                        certification.
+                                      </p>
+                                      <p>
+                                        Once they are certified, they are
+                                        shipped by courier to students who are
+                                        then notified by email with the
+                                        instructions to track their packages.
+                                        Students need to ensure that they have
+                                        included the full information for proper
+                                        delivery. Failure to deliver the package
+                                        results in returning it to our office
+                                        without a refund. More information about
+                                        ordering a certified report can be found
+                                        here:
+                                      </p>
+                                      <p>
+                                        <a
+                                          href="https://www.egyptianscholastictest.com/news/details?id=61800def227c642dbba30e41&amp;filter=Guides"
+                                          rel="noopener noreferrer"
+                                          target="_blank"
+                                          style="color: rgb(0, 102, 204)"
+                                          ><u
+                                            >https://www.egyptianscholastictest.com/news/details?id=61800def227c642dbba30e41&amp;filter=Guides</u
+                                          ></a
+                                        >
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>When do I get my Admission Ticket?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        After the trial registration deadline, a
+                                        test center is assigned to each student
+                                        based on their selection of the
+                                        governorate and test district and
+                                        subject to availability.
+                                      </p>
+                                      <p>
+                                        Students are then contacted by email to
+                                        view their Admission Tickets in their
+                                        Student Dashboard and print them to
+                                        bring them to the test.
+                                      </p>
+                                      <p>To view the Admission Ticket:</p>
+                                      <ol>
+                                        <li>
+                                          Visit
+                                          <a
+                                            href="https://www.egyptianscholastictest.com"
+                                            rel="noopener noreferrer"
+                                            target="_blank"
+                                            style="color: rgb(0, 102, 204)"
+                                            >https://www.egyptianscholastictest.com</a
+                                          >
+                                        </li>
+                                        <li>
+                                          Log in using your email address and
+                                          the password you set when you created
+                                          the account. If you forgot the
+                                          password, click on "Forgot Password"
+                                          then enter your email address and
+                                          click "Send". You will receive an
+                                          email from
+                                          "registration@egyptianscholastictest.com"
+                                          with a password reset link. You can
+                                          then set a new password and log into
+                                          your account.
+                                        </li>
+                                        <li>
+                                          In your Dashboard, under "My Tests",
+                                          access the current session
+                                        </li>
+                                        <li>
+                                          You will then view your tests and the
+                                          center, room, and address
+                                        </li>
+                                        <li>
+                                          Click on EST I Admission Ticket or EST
+                                          II Admission Ticket
+                                        </li>
+                                        <li>
+                                          The system will generate a PDF
+                                          Admission Ticket and will prompt you
+                                          to save it
+                                        </li>
+                                        <li>
+                                          Print that file and bring it with you
+                                          to the test center. You can also save
+                                          it and send it to someone to print it
+                                          on your behalf.
+                                        </li>
+                                      </ol>
+                                      <p>
+                                        Once centers are assigned, they cannot
+                                        be changed.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>What is the payment method for the EST?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        Students can only pay online using a
+                                        credit card which supports 3D security
+                                        (ability to send a one-time password by
+                                        SMS to confirm that you authorize the
+                                        payment). If the card does not support
+                                        3D security, payment might fail and the
+                                        student needs to contact the bank to
+                                        check for other options.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>Will you send my scores to universities?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        While we ask students to indicate the
+                                        universities they plan to apply to, this
+                                        is currently for statistical purposes
+                                        only. At the time being, students still
+                                        have to share their official score
+                                        report with the university of their
+                                        choice.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>
+                            What documents do I need to apply for the EST?
+                          </h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        Egyptian students need to input the
+                                        number of their National ID and upload a
+                                        colored copy of their ID in their test
+                                        application.
+                                      </p>
+                                      <p>
+                                        Students whose National ID has not been
+                                        issued yet can upload a colored copy of
+                                        their passport or birth certificate in
+                                        the National ID field. They will still
+                                        have to input the number of the National
+                                        ID in its correct field though.
+                                      </p>
+                                      <p>
+                                        Non-Egyptian students need to input the
+                                        number of their passport and upload a
+                                        colored copy of the passport in their
+                                        test application.
+                                      </p>
+                                      <p>
+                                        All students should bring their
+                                        Admission Ticket and a copy of an
+                                        identification document that contains a
+                                        photo (National ID or passport). Birth
+                                        certificates are not accepted for
+                                        admission to the test center.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>
+                            Why am I unable to log into my EST account although
+                            I have already taken the EST in the past?
+                          </h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        <span style="color: rgb(0, 0, 0)"
+                                          >We launched the new website </span
+                                        >(<a
+                                          href="https://www.egyptianscholastictest.com"
+                                          rel="noopener noreferrer"
+                                          target="_blank"
+                                          style="color: rgb(0, 102, 204)"
+                                          ><u
+                                            >https://www.egyptianscholastictest.com</u
+                                          ></a
+                                        >)
+                                        <span style="color: rgb(0, 0, 0)"
+                                          >with the May 2021 trials, and did not
+                                          merge the old accounts </span
+                                        >from the previous trials into it.
+                                        <span style="color: rgb(0, 0, 0)"
+                                          >So if you have not registered for any
+                                          trial starting May, </span
+                                        >your old credentials will not work and
+                                        you will have to create a new account in
+                                        order to register for any EST session
+                                        starting May 2021 or order previous
+                                        score reports.
+                                      </p>
+                                      <p>
+                                        You can use the email address that you
+                                        used for a previous trial, and email us
+                                        to merge older scores into the new
+                                        account.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>
+                            Why am I unable to view my old scores in my account?
+                          </h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        We have merged the old accounts into the
+                                        new website for all students who
+                                        registered by September 2021. If you
+                                        have registered after September 2021,
+                                        please email us indicating the previous
+                                        rounds (and the email used if different
+                                        from the one on the new website), and we
+                                        will merge the scores of trials taken
+                                        before the launch of the new website in
+                                        May 2021.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>
+                            I have taken the EST using different email
+                            addresses. Can I combine them for matching?
+                          </h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        While matching is applicable for the
+                                        EST, we do not issue a single report
+                                        that combines the scores from different
+                                        trials. Instead, students order the
+                                        certified reports of both trials and
+                                        submit them to the university which will
+                                        then apply superscoring when assessing
+                                        the student's application at its
+                                        discretion.
+                                      </p>
+                                      <p>
+                                        The email is not listed on the score
+                                        report. It is the name and ID or
+                                        passport number that need to be the same
+                                        for both reports. So to match between
+                                        two trials taken under different emails,
+                                        the student can simply order the
+                                        official score reports for both trials
+                                        and submit them to the university.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>Which universities acknowledge the EST?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        All national Egyptian universities
+                                        acknowledge the EST. For private
+                                        universities, please check directly with
+                                        the university to which you plan to
+                                        apply.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>I cannot access my account. What should I do?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        First of all, make sure that you have an
+                                        account on the new website. Accounts
+                                        created before May 2021 were not merged
+                                        to the new site, so you will need to
+                                        create an account again (using the same
+                                        email address) and set a password.
+                                      </p>
+                                      <p>
+                                        If you have already created an account
+                                        but cannot log in, please reset your
+                                        password. To do that:
+                                      </p>
+                                      <ol>
+                                        <li>
+                                          Visit
+                                          <a
+                                            href="https://www.egyptianscholastictest.com"
+                                            rel="noopener noreferrer"
+                                            target="_blank"
+                                            style="color: rgb(0, 102, 204)"
+                                            >https://www.egyptianscholastictest.com</a
+                                          >
+                                        </li>
+                                        <li>Click on "Log In" in the menu</li>
+                                        <li>Click on "Forgot Password"</li>
+                                        <li>
+                                          Enter your email address and click
+                                          "Send"
+                                        </li>
+                                        <li>
+                                          Check your inbox for an email from
+                                          "registration@egyptianscholastictest.com"
+                                          with a password reset link
+                                        </li>
+                                        <li>
+                                          Click the link to set a new password
+                                        </li>
+                                      </ol>
+                                      <p>
+                                        You can now log into your account using
+                                        the new password.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>Where do I find my Admission Ticket?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>To view the Admission Ticket:</p>
+                                      <ol>
+                                        <li>
+                                          Visit
+                                          <a
+                                            href="https://www.egyptianscholastictest.com"
+                                            rel="noopener noreferrer"
+                                            target="_blank"
+                                            style="color: rgb(0, 102, 204)"
+                                            >https://www.egyptianscholastictest.com</a
+                                          >
+                                        </li>
+                                        <li>
+                                          Log in using your email address and
+                                          the password you set when you created
+                                          the account. If you forgot the
+                                          password, click on "Forgot Password"
+                                          then enter your email address. You
+                                          will receive an email with a password
+                                          reset link. You can then set a new
+                                          password and log into your account.
+                                        </li>
+                                        <li>
+                                          In your Dashboard, under "My Tests",
+                                          access the current session
+                                        </li>
+                                        <li>
+                                          You will then view your tests and the
+                                          center, room, and address
+                                        </li>
+                                        <li>
+                                          Click on EST I Admission Ticket or EST
+                                          II Admission Ticket
+                                        </li>
+                                        <li>
+                                          The system will generate a PDF
+                                          Admission Ticket and will prompt you
+                                          to open or save it
+                                        </li>
+                                        <li>
+                                          Print that file and bring it with you
+                                          to the test center. You can also save
+                                          it and send it to someone to print it
+                                          on your behalf.
+                                        </li>
+                                      </ol>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>I forgot my password. Can I reset it?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        If you forgot your password, please
+                                        follow the steps below to set a new
+                                        password:
+                                      </p>
+                                      <ol>
+                                        <li>
+                                          Visit
+                                          <a
+                                            href="https://www.egyptianscholastictest.com"
+                                            rel="noopener noreferrer"
+                                            target="_blank"
+                                            style="color: rgb(0, 102, 204)"
+                                            >https://www.egyptianscholastictest.com</a
+                                          >
+                                        </li>
+                                        <li>Click on "Log In" in the menu</li>
+                                        <li>Click on "Forgot Password"</li>
+                                        <li>
+                                          Enter your email address and click
+                                          "Send"
+                                        </li>
+                                        <li>
+                                          Check your inbox for an email from
+                                          "registration@egyptianscholastictest.com"
+                                          with a password reset link
+                                        </li>
+                                        <li>
+                                          Click the link to set a new password
+                                        </li>
+                                      </ol>
+                                      <p>
+                                        You can now log into your account using
+                                        the new password.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <div
+                        class="MuiButtonBase-root MuiAccordionSummary-root"
+                        tabindex="0"
+                        role="button"
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                      >
+                        <div class="MuiAccordionSummary-content">
+                          <h2>Do EST trials count for students in Grade 10?</h2>
+                        </div>
+                        <div
+                          class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+                          aria-disabled="false"
+                          aria-hidden="true"
+                        >
+                          <span class="MuiIconButton-label"
+                            ><svg
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                              ></path></svg></span
+                          ><span class="MuiTouchRipple-root"></span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiCollapse-container MuiCollapse-hidden"
+                        style="min-height: 0px"
+                      >
+                        <div class="MuiCollapse-wrapper">
+                          <div class="MuiCollapse-wrapperInner">
+                            <div
+                              aria-labelledby="panel1bh-header"
+                              id="panel1bh-content"
+                              role="region"
+                            >
+                              <div class="MuiAccordionDetails-root">
+                                <div
+                                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                                >
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-9 MuiGrid-grid-lg-9"
+                                  >
+                                    <h3>
+                                      <p>
+                                        EST trials count for students in Grades
+                                        11 and 12. However, as a test
+                                        institution, we have no restrictions for
+                                        entering trials even for students who
+                                        are in Grade 10, as they can enter EST
+                                        trials as a form of practice.
+                                      </p>
+                                      <p>
+                                        As for the first counted trial, you will
+                                        have to check with the Ministry of
+                                        Education and the Supreme Council of
+                                        Universities to check which trial would
+                                        be the first counted EST trial for you.
+                                      </p>
+                                    </h3>
+                                  </div>
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-9 MuiGrid-grid-lg-3"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="jss47">
+          <div class="MuiContainer-root MuiContainer-maxWidthLg">
+            <div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-3 MuiGrid-grid-lg-3"
+              >
+                <li class="jss49">
+                  <a href="/"
+                    ><img alt="logo" src="../assist/images/2.png"
+                  /></a>
+                </li>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-9 MuiGrid-grid-lg-7"
+              >
+                <ul class="jss53"></ul>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-lg-2"
+              >
+                <div class="jss50">
+                  <ul class="jss51">
+                    <li>
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 320 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                        ></path>
+                      </svg>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/c/EgyptianScholasticTest"
+                        target="_blank"
+                        ><svg
+                          stroke="currentColor"
+                          fill="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 1024 1024"
+                          height="1em"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M960 509.2c0-2.2 0-4.7-.1-7.6-.1-8.1-.3-17.2-.5-26.9-.8-27.9-2.2-55.7-4.4-81.9-3-36.1-7.4-66.2-13.4-88.8a139.52 139.52 0 0 0-98.3-98.5c-28.3-7.6-83.7-12.3-161.7-15.2-37.1-1.4-76.8-2.3-116.5-2.8-13.9-.2-26.8-.3-38.4-.4h-29.4c-11.6.1-24.5.2-38.4.4-39.7.5-79.4 1.4-116.5 2.8-78 3-133.5 7.7-161.7 15.2A139.35 139.35 0 0 0 82.4 304C76.3 326.6 72 356.7 69 392.8c-2.2 26.2-3.6 54-4.4 81.9-.3 9.7-.4 18.8-.5 26.9 0 2.9-.1 5.4-.1 7.6v5.6c0 2.2 0 4.7.1 7.6.1 8.1.3 17.2.5 26.9.8 27.9 2.2 55.7 4.4 81.9 3 36.1 7.4 66.2 13.4 88.8 12.8 47.9 50.4 85.7 98.3 98.5 28.2 7.6 83.7 12.3 161.7 15.2 37.1 1.4 76.8 2.3 116.5 2.8 13.9.2 26.8.3 38.4.4h29.4c11.6-.1 24.5-.2 38.4-.4 39.7-.5 79.4-1.4 116.5-2.8 78-3 133.5-7.7 161.7-15.2 47.9-12.8 85.5-50.5 98.3-98.5 6.1-22.6 10.4-52.7 13.4-88.8 2.2-26.2 3.6-54 4.4-81.9.3-9.7.4-18.8.5-26.9 0-2.9.1-5.4.1-7.6v-5.6zm-72 5.2c0 2.1 0 4.4-.1 7.1-.1 7.8-.3 16.4-.5 25.7-.7 26.6-2.1 53.2-4.2 77.9-2.7 32.2-6.5 58.6-11.2 76.3-6.2 23.1-24.4 41.4-47.4 47.5-21 5.6-73.9 10.1-145.8 12.8-36.4 1.4-75.6 2.3-114.7 2.8-13.7.2-26.4.3-37.8.3h-28.6l-37.8-.3c-39.1-.5-78.2-1.4-114.7-2.8-71.9-2.8-124.9-7.2-145.8-12.8-23-6.2-41.2-24.4-47.4-47.5-4.7-17.7-8.5-44.1-11.2-76.3-2.1-24.7-3.4-51.3-4.2-77.9-.3-9.3-.4-18-.5-25.7 0-2.7-.1-5.1-.1-7.1v-4.8c0-2.1 0-4.4.1-7.1.1-7.8.3-16.4.5-25.7.7-26.6 2.1-53.2 4.2-77.9 2.7-32.2 6.5-58.6 11.2-76.3 6.2-23.1 24.4-41.4 47.4-47.5 21-5.6 73.9-10.1 145.8-12.8 36.4-1.4 75.6-2.3 114.7-2.8 13.7-.2 26.4-.3 37.8-.3h28.6l37.8.3c39.1.5 78.2 1.4 114.7 2.8 71.9 2.8 124.9 7.2 145.8 12.8 23 6.2 41.2 24.4 47.4 47.5 4.7 17.7 8.5 44.1 11.2 76.3 2.1 24.7 3.4 51.3 4.2 77.9.3 9.3.4 18 .5 25.7 0 2.7.1 5.1.1 7.1v4.8zM423 646l232-135-232-133z"
+                          ></path></svg
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="jss48">
+              <p>
+                Copyright
+                <!-- -->2022<!-- -->
+                by Egyptian Scholastic Test | All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+        <!-- --------------------------------------------------- LOGIN --------------------------------------------------------- -->
+        <div
+        role="presentation"
+        id="loginForm"
+        class="MuiDialog-root jss15"
+        style="position: fixed; z-index: 1300; inset: 0px; display: none"
+      >
+        <div
+          class="MuiBackdrop-root"
+          aria-hidden="true"
+          style="
+            opacity: 1;
+            transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+          "
+        ></div>
+        <div tabindex="0" data-test="sentinelStart"></div>
+        <div
+          class="MuiDialog-container MuiDialog-scrollPaper"
+          role="none presentation"
+          tabindex="-1"
+          style="
+            opacity: 1;
+            transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+          "
+        >
+          <div
+            class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiDialog-paperFullWidth MuiPaper-elevation24 MuiPaper-rounded"
+            role="dialog"
+            aria-labelledby="form-dialog-title"
+          >
+            <div class="MuiDialogTitle-root" id="form-dialog-title">
+              <h2 class="MuiTypography-root MuiTypography-h6">
+                <h3
+                  style="
+                    margin: 0;
+                    font-size: 32px;
+                    font-family: Muli-Bold;
+                    float: left;
+                  "
+                >
+                  LOGIN
+                </h3>
+                <div
+                  class="close"
+                  id="close"
+                  style="
+                    color: #ffffff;
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    border-radius: 10px;
+                    justify-content: center;
+                    background-color: #144295;
+                    float: right;
+                  "
+                >
+                  <svg
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                    style="cursor: pointer; font-size: 40px"
+                  >
+                    <path
+                      d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                    ></path>
+                  </svg>
+                </div>
+              </h2>
+            </div>
+            <div class="MuiDialogContent-root">
+              <h6 class="jss16">
+                If you have already created an account on this site, please use it
+                to register for all tests. Please don't create multiple accounts
+                because this could affect your score services later.
+              </h6>
+              <form autocomplete="off" novalidate="">
+                <div
+                  class="MuiGrid-root jss59 MuiGrid-container MuiGrid-spacing-xs-1"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-lg-5"
+                  >
+                    <h4>Email:</h4>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7 MuiGrid-grid-lg-7"
+                  >
+                    <div class="jss60">
+                      <div class="MuiFormControl-root MuiTextField-root jss62">
+                        <div
+                          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                        >
+                          <!-- get input value -->
+                          <input
+                            aria-invalid="false"
+                            autocomplete="off"
+                            id="outlined-secondary"
+                            name="email"
+                            type="email"
+                            class="MuiInputBase-input MuiOutlinedInput-input login"
+                            value=""
+                          />
+                          <fieldset
+                            aria-hidden="true"
+                            class="jss64 MuiOutlinedInput-notchedOutline"
+                            style="padding-left: 8px"
+                          >
+                            <legend class="jss65" style="width: 0.01px">
+                              <span>​</span>
+                            </legend>
+                          </fieldset>
+                        </div>
+                      </div>
+                    </div>
+                    <h6>* Make sure you are using a valid email address</h6>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root jss59 MuiGrid-container MuiGrid-spacing-xs-1"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-lg-5"
+                  >
+                    <h4>Password:</h4>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7 MuiGrid-grid-lg-7"
+                  >
+                    <div class="jss60">
+                      <div class="MuiFormControl-root MuiTextField-root jss62">
+                        <div
+                          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                        >
+                          <!-- get input value -->
+                          <input
+                            aria-invalid="false"
+                            autocomplete="off"
+                            id="outlined-secondary"
+                            name="password"
+                            type="password"
+                            class="MuiInputBase-input MuiOutlinedInput-input login"
+                            value=""
+                          />
+                          <fieldset
+                            aria-hidden="true"
+                            class="jss64 MuiOutlinedInput-notchedOutline"
+                            style="padding-left: 8px"
+                          >
+                            <legend class="jss65" style="width: 0.01px">
+                              <span>​</span>
+                            </legend>
+                          </fieldset>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-space-around"
+                  style="padding-top: 5px"
+                >
+                  <div class="jss17">
+                    <div class="checkboxContainer">
+                      <label class="MuiFormControlLabel-root"
+                        ><span
+                          class="MuiButtonBase-root MuiIconButton-root jss68 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                          aria-disabled="false"
+                          ><span class="MuiIconButton-label"
+                            ><input
+                              class="jss71"
+                              name="remember"
+                              type="checkbox"
+                              data-indeterminate="false"
+                              value="" />
+                            <div class="checkedOutline"></div></span
+                          ><span class="MuiTouchRipple-root"></span></span
+                        ><span
+                          class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                          >Remember me</span
+                        ></label
+                      >
+                    </div>
+                  </div>
+                  <h5 class="underline">Forgot password?</h5>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
+                >
+                  <!-- <div>
+                    <button class="jss14" id="submitBtn" onclick="loginLogic()">LOGIN</button>
+                  </div> -->
+                  <div><button class="jss14" id="submitBtn"><a href="#" onclick="return preventDefualt()">LOGIN</a></button></div>
+                </div>
+              </form>
+            </div>
+            <div class="MuiDialogActions-root MuiDialogActions-spacing">
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
+              >
+                <p>Don`t have an account?</p>
+                <h5>SIGN UP NOW</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div tabindex="0" data-test="sentinelEnd"></div>
+      </div>
+
+      <div
+      id="mySidenav"
+      class="sidenav"
+      style="
+      display: none;
+        width: 40%;
+        padding: 0;
+        font-size: 1.15em;
+        background: #0e4c8d;
+        padding-top: 50px;
+        z-index: 9999;
+      "
+    >
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a  href="../index.html" id="a_1"
+        ><img src="../assist/images/side-nav.png" id="img_1" alt="est" />
+      </a>
+      <a href="/html/about.html"">About</a>
+      <a href="/html/news.html">News</a>
+      <a href="/html/news.html">Teacher Resources</a>
+      <a href="/html/faqs.html">FAQs</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.display = "block";
+        document.getElementById("mySidenav").style.width = "46%";
+      }
+  
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+  
+      <script type="text/javascript" src="../js/index.js"></script>
+      
+  </body>
+</html>

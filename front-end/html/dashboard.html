@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../floating button/fab.css" />
+    <link rel="stylesheet" href="../css/dashboard.css" />
+    <link rel="stylesheet" href="../css/side-nav.css" />
+  </head>
+  <body>
+    <div id="__next">
+      <div class="jss4">
+        <div class="MuiContainer-root MuiContainer-maxWidthLg">
+          <div class="jss1">
+            <div class="jss3">
+              <a href="/"><img src="../assist/images/3.jpg" alt="est" /></a>
+            </div>
+            <div class="jss5">
+              <div>
+                <div class="jss13">
+                  <div class="jss12">
+                    <img src="" class="student-img" alt="profile" />
+                  </div>
+                  <div>
+                    <a href="/info"><h5 class="student-nick-name"></h5></a>
+                    <h6>Student</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="bm-overlay"
+            style="
+              position: fixed;
+              z-index: 1000;
+              width: 100%;
+              height: 100%;
+              background: rgba(0, 0, 0, 0.3);
+              opacity: 0;
+              -moz-transform: translate3d(100%, 0, 0);
+              -ms-transform: translate3d(100%, 0, 0);
+              -o-transform: translate3d(100%, 0, 0);
+              -webkit-transform: translate3d(100%, 0, 0);
+              transform: translate3d(100%, 0, 0);
+              transition: opacity 0.3s, transform 0s 0.3s;
+            "
+          ></div>
+          <div>
+            <div class="bm-burger-button" style="z-index: 1000">
+              <button
+                onclick="openNav()"
+                id="react-burger-menu-btn"
+                style="
+                  position: absolute;
+                  left: 0;
+                  top: 0;
+                  z-index: 1;
+                  width: 100%;
+                  height: 100%;
+                  margin: 0;
+                  padding: 0;
+                  border: none;
+                  font-size: 0;
+                  background: transparent;
+                  cursor: pointer;
+                "
+              >
+                Open Menu</button
+              ><span
+                ><span
+                  class="bm-burger-bars"
+                  style="
+                    position: absolute;
+                    height: 20%;
+                    left: 0;
+                    right: 0;
+                    top: 0%;
+                    opacity: 1;
+                  "
+                ></span
+                ><span
+                  class="bm-burger-bars"
+                  style="
+                    position: absolute;
+                    height: 20%;
+                    left: 0;
+                    right: 0;
+                    top: 40%;
+                    opacity: 1;
+                  "
+                ></span
+                ><span
+                  class="bm-burger-bars"
+                  style="
+                    position: absolute;
+                    height: 20%;
+                    left: 0;
+                    right: 0;
+                    top: 80%;
+                    opacity: 1;
+                  "
+                ></span
+              ></span>
+            </div>
+          </div>
+          <div
+            id=""
+            class="bm-menu-wrap"
+            style="
+              position: fixed;
+              right: inherit;
+              z-index: 1100;
+              width: 300px;
+              height: 100%;
+              -moz-transform: translate3d(-300px, 0, 0);
+              -ms-transform: translate3d(-300px, 0, 0);
+              -o-transform: translate3d(-300px, 0, 0);
+              -webkit-transform: translate3d(-300px, 0, 0);
+              transform: translate3d(-300px, 0, 0);
+              transition: transform 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+            "
+            aria-hidden="true"
+          >
+            <div
+              class="bm-menu"
+              style="height: 100%; box-sizing: border-box; overflow: auto"
+            >
+              <nav class="bm-item-list" style="height: 100%">
+                <div
+                  class="MuiGrid-root bm-item MuiGrid-item MuiGrid-grid-lg-9"
+                  style="
+                    display: block;
+                    -moz-transform: translate3d(0, 500px, 0);
+                    -ms-transform: translate3d(0, 500px, 0);
+                    -o-transform: translate3d(0, 500px, 0);
+                    -webkit-transform: translate3d(0, 500px, 0);
+                    transform: translate3d(0, 500px, 0);
+                    transition: transform 0s 0.2s cubic-bezier(0.7, 0, 0.3, 1);
+                  "
+                  tabindex="-1"
+                >
+                  <a href="/"
+                    ><img src="../assist/images/3.jpg" alt="est" />
+                  </a>
+                  <ul>
+                    <li><a href="/html/about.html">About</a></li>
+                    <li><a href="/html/dashboard.html">Dashboard</a></li>
+                    <!-- <li><a href="/html/upcomingtests.html">Registrations</a></li> -->
+                    <li><a href="/html/news.html">News</a></li>
+                    <li>
+                      <a href="/news?filter=Teacher+Resources"
+                        >Teacher Resources</a
+                      >
+                    </li>
+                    <li><a href="/html/faqs.html">FAQs</a></li>
+                    <li>
+                      <a href="mailto:tests@egyptianscholastictest.com"
+                        >Contact Us</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <div>
+              <div
+                class="bm-cross-button"
+                style="
+                  position: absolute;
+                  width: 24px;
+                  height: 24px;
+                  right: 8px;
+                  top: 8px;
+                "
+              >
+                <button
+                  id="react-burger-cross-btn"
+                  style="
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    z-index: 1;
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                    border: none;
+                    font-size: 0;
+                    background: transparent;
+                    cursor: pointer;
+                  "
+                  tabindex="-1"
+                >
+                  Close Menu</button
+                ><img
+                  src="../../static/images/cancel.svg"
+                  class="bm-cross"
+                  style="width: 100%; height: 100%"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="MuiContainer-root MuiContainer-maxWidthLg">
+          <div class="MuiContainer-root MuiContainer-maxWidthLg">
+            <div class="MuiContainer-root MuiContainer-maxWidthLg"></div>
+          </div>
+          <div class="MuiContainer-root MuiContainer-maxWidthLg"></div>
+        </div>
+      </div>
+      <div class="jss26">
+        <div class="MuiContainer-root MuiContainer-maxWidthLg">
+          <div class="MuiGrid-root MuiGrid-container">
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
+            >
+              <div class="jss28">
+                <a href="/"><img src="../assist/images/3.jpg" alt="est" /></a>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+            >
+              <div class="jss23">
+                <ul class="jss24">
+                  <li><a href="/html/about.html">About</a></li>
+                  <li><a href="/html/dashboard.html">Dashboard</a></li>
+                  <!-- <li><a href="/html/upcomingtests.html">Registrations</a></li> -->
+                  <li><a href="/html/news.html">News</a></li>
+                  <li>
+                    <a href="/news?filter=Teacher+Resources"
+                      >Teacher Resources</a
+                    >
+                  </li>
+                  <li><a href="/html/faqs.html">FAQs</a></li>
+                  <li>
+                    <a href="mailto:tests@egyptianscholastictest.com"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+                <div class="jss36">
+                  <div class="jss35">
+                    <img src="" class="student-img" alt="profile" />
+                  </div>
+                  <div>
+                    <a href="/info"><h5 class="student-nick-name"></h5></a>
+                    <h6>Student</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="MuiContainer-root MuiContainer-maxWidthLg">
+          <div class="MuiContainer-root MuiContainer-maxWidthLg">
+            <div class="MuiContainer-root MuiContainer-maxWidthLg"></div>
+          </div>
+          <div class="MuiContainer-root MuiContainer-maxWidthLg"></div>
+        </div>
+      </div>
+      <div class="mainContainer">
+        <div>
+          <div class="MuiGrid-root MuiGrid-container">
+            <div class="jss38">
+              <div class="jss44">
+                <ul>
+                  <li>
+                    <div class="jss46">
+                      <a class="active" href="/html/dashboard.html"
+                        ><img src="../assist/images/dashboard.svg" />
+                        Dashboard</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jss46">
+                      <a class="" href="info.html"
+                        ><img src="../assist/images/profile.svg" />My
+                        Information</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jss46">
+                      <a class="" href="myregistration.html"
+                        ><img src="../assist/images/registrations.svg" />My
+                        Tests</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jss46">
+                      <a class="" href="upcomingtests.html"
+                        ><img src="../assist/images/new.svg" />Test
+                        Registration</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jss46">
+                      <a class="" href="results.html"
+                        ><img src="../assist/images/results.svg" /> My
+                        Results</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jss46">
+                      <a class="" href="services.html"
+                        ><img src="../assist/images/services.svg" />Services</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jss46">
+                      <a href="../index.html" id="logout" onclick="logout()"
+                        ><img src="../assist/images/logout.svg" /> Logout</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="jss40">
+              <div class="jss41">
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-lg-9"
+                  >
+                    <div class="jss42"><h2>My Tests</h2></div>
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+                      >
+                        <div class="jss68">
+                          <div class="jss69">
+                            <h1>June 2022</h1>
+                            <div
+                              class="jss70"
+                              style="background: rgb(131, 201, 128)"
+                            >
+                              <p>Paid</p>
+                            </div>
+                          </div>
+                          <div class="jss72">
+                            <div class="jss73">
+                              <h1>EST I</h1>
+                              <p>17th Jun, 2022</p>
+                            </div>
+                          </div>
+                          <div class="jss71">
+                            <div
+                              class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-space-between"
+                            >
+                              <h5>Admission Ticket Available</h5>
+                              <a
+                                href="/myregistration/details/6266b3fceddb3d204d986134"
+                                ><div class="jss74">
+                                  <svg
+                                    class="MuiSvgIcon-root"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                    aria-hidden="true"
+                                  >
+                                    <path
+                                      d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                                    ></path>
+                                  </svg></div
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+                      >
+                        <div class="jss68">
+                          <div class="jss69">
+                            <h1>March 2022</h1>
+                            <div
+                              class="jss70"
+                              style="background: rgb(131, 201, 128)"
+                            >
+                              <p>Paid</p>
+                            </div>
+                          </div>
+                          <div class="jss72">
+                            <div class="jss73">
+                              <h1>EST I</h1>
+                              <p>25th Mar, 2022</p>
+                            </div>
+                            <div class="jss73">
+                              <h1>EST II</h1>
+                              <p>26th Mar, 2022</p>
+                            </div>
+                          </div>
+                          <div class="jss71">
+                            <div
+                              class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-flex-end"
+                            >
+                              <a
+                                href="/myregistration/details/620d7cd3602bbc4977f1ca7f"
+                                ><div class="jss74">
+                                  <svg
+                                    class="MuiSvgIcon-root"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                    aria-hidden="true"
+                                  >
+                                    <path
+                                      d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                                    ></path>
+                                  </svg></div
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+                      >
+                        <div class="jss68">
+                          <div class="jss69">
+                            <h1>February 2022</h1>
+                            <div
+                              class="jss70"
+                              style="background: rgb(131, 201, 128)"
+                            >
+                              <p>Paid</p>
+                            </div>
+                          </div>
+                          <div class="jss72">
+                            <div class="jss73">
+                              <h1>EST I</h1>
+                              <p>4th Feb, 2022</p>
+                            </div>
+                            <div class="jss73">
+                              <h1>EST II</h1>
+                              <p>8th Feb, 2022</p>
+                            </div>
+                          </div>
+                          <div class="jss71">
+                            <div
+                              class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-flex-end"
+                            >
+                              <a
+                                href="/myregistration/details/61bdb7b570b47b75b6c0da2b"
+                                ><div class="jss74">
+                                  <svg
+                                    class="MuiSvgIcon-root"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                    aria-hidden="true"
+                                  >
+                                    <path
+                                      d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                                    ></path>
+                                  </svg></div
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+                      >
+                        <div class="jss68">
+                          <div class="jss69">
+                            <h1>December 2021</h1>
+                            <div
+                              class="jss70"
+                              style="background: rgb(131, 201, 128)"
+                            >
+                              <p>Paid</p>
+                            </div>
+                          </div>
+                          <div class="jss72">
+                            <div class="jss73">
+                              <h1>EST I</h1>
+                              <p>4th Dec, 2021</p>
+                            </div>
+                          </div>
+                          <div class="jss71">
+                            <div
+                              class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-flex-end"
+                            >
+                              <a
+                                href="/myregistration/details/617884c91aea743ff8216f0d"
+                                ><div class="jss74">
+                                  <svg
+                                    class="MuiSvgIcon-root"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                    aria-hidden="true"
+                                  >
+                                    <path
+                                      d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                                    ></path>
+                                  </svg></div
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"
+                  ></div>
+                </div>
+              </div>
+              <div class="jss51">
+                <div class="jss52"><h2>Test Registration</h2></div>
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-md-5 MuiGrid-grid-lg-5"
+                  >
+                    <div class="jss53">
+                      <div class="year">
+                        <h6>Year:</h6>
+                        <h4><!-- --></h4>
+                      </div>
+                      <div class="arrows">
+                        <svg
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
+                          <path
+                            d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+                          ></path>
+                        </svg>
+                        <svg
+                          class="MuiSvgIcon-root active"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
+                          <path
+                            d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7 MuiGrid-grid-md-7 MuiGrid-grid-lg-7"
+                  >
+                    <div class="jss53">
+                      <div class="types">
+                        <div class="type1">
+                          <div class="square"></div>
+                          <p>EST I</p>
+                        </div>
+                        <div class="type2">
+                          <div class="square"></div>
+                          <p>EST II</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="jss55">
+                  <div class="jss56"><div class="jss49"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="jss60">
+          <div class="MuiContainer-root MuiContainer-maxWidthLg">
+            <div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-3 MuiGrid-grid-lg-3"
+              >
+                <li class="jss62">
+                  <a href="/"
+                    ><img alt="logo" src="../assist/images/2.png"
+                  /></a>
+                </li>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-9 MuiGrid-grid-lg-7"
+              >
+                <ul class="jss66"></ul>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-lg-2"
+              >
+                <div class="jss63">
+                  <ul class="jss64">
+                    <li>
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 320 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                        ></path>
+                      </svg>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/c/EgyptianScholasticTest"
+                        target="_blank"
+                        ><svg
+                          stroke="currentColor"
+                          fill="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 1024 1024"
+                          height="1em"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M960 509.2c0-2.2 0-4.7-.1-7.6-.1-8.1-.3-17.2-.5-26.9-.8-27.9-2.2-55.7-4.4-81.9-3-36.1-7.4-66.2-13.4-88.8a139.52 139.52 0 0 0-98.3-98.5c-28.3-7.6-83.7-12.3-161.7-15.2-37.1-1.4-76.8-2.3-116.5-2.8-13.9-.2-26.8-.3-38.4-.4h-29.4c-11.6.1-24.5.2-38.4.4-39.7.5-79.4 1.4-116.5 2.8-78 3-133.5 7.7-161.7 15.2A139.35 139.35 0 0 0 82.4 304C76.3 326.6 72 356.7 69 392.8c-2.2 26.2-3.6 54-4.4 81.9-.3 9.7-.4 18.8-.5 26.9 0 2.9-.1 5.4-.1 7.6v5.6c0 2.2 0 4.7.1 7.6.1 8.1.3 17.2.5 26.9.8 27.9 2.2 55.7 4.4 81.9 3 36.1 7.4 66.2 13.4 88.8 12.8 47.9 50.4 85.7 98.3 98.5 28.2 7.6 83.7 12.3 161.7 15.2 37.1 1.4 76.8 2.3 116.5 2.8 13.9.2 26.8.3 38.4.4h29.4c11.6-.1 24.5-.2 38.4-.4 39.7-.5 79.4-1.4 116.5-2.8 78-3 133.5-7.7 161.7-15.2 47.9-12.8 85.5-50.5 98.3-98.5 6.1-22.6 10.4-52.7 13.4-88.8 2.2-26.2 3.6-54 4.4-81.9.3-9.7.4-18.8.5-26.9 0-2.9.1-5.4.1-7.6v-5.6zm-72 5.2c0 2.1 0 4.4-.1 7.1-.1 7.8-.3 16.4-.5 25.7-.7 26.6-2.1 53.2-4.2 77.9-2.7 32.2-6.5 58.6-11.2 76.3-6.2 23.1-24.4 41.4-47.4 47.5-21 5.6-73.9 10.1-145.8 12.8-36.4 1.4-75.6 2.3-114.7 2.8-13.7.2-26.4.3-37.8.3h-28.6l-37.8-.3c-39.1-.5-78.2-1.4-114.7-2.8-71.9-2.8-124.9-7.2-145.8-12.8-23-6.2-41.2-24.4-47.4-47.5-4.7-17.7-8.5-44.1-11.2-76.3-2.1-24.7-3.4-51.3-4.2-77.9-.3-9.3-.4-18-.5-25.7 0-2.7-.1-5.1-.1-7.1v-4.8c0-2.1 0-4.4.1-7.1.1-7.8.3-16.4.5-25.7.7-26.6 2.1-53.2 4.2-77.9 2.7-32.2 6.5-58.6 11.2-76.3 6.2-23.1 24.4-41.4 47.4-47.5 21-5.6 73.9-10.1 145.8-12.8 36.4-1.4 75.6-2.3 114.7-2.8 13.7-.2 26.4-.3 37.8-.3h28.6l37.8.3c39.1.5 78.2 1.4 114.7 2.8 71.9 2.8 124.9 7.2 145.8 12.8 23 6.2 41.2 24.4 47.4 47.5 4.7 17.7 8.5 44.1 11.2 76.3 2.1 24.7 3.4 51.3 4.2 77.9.3 9.3.4 18 .5 25.7 0 2.7.1 5.1.1 7.1v4.8zM423 646l232-135-232-133z"
+                          ></path></svg
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="jss61">
+              <p>
+                Copyright
+                <!-- -->2022<!-- -->
+                by Egyptian Scholastic Test | All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="fixedone"></div>
+    <div class="fab-container">
+      <div class="fab fab-icon-holder">
+        <svg
+          class="svgClass"
+          focusable="false"
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+          data-testid="MenuIcon"
+        >
+          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+        </svg>
+      </div>
+
+      <ul class="fab-options">
+        <li>
+          <span class="fab-label">Logout</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-file-alt">
+              <a href="../index.html" id="logout" onclick="logout()">
+                <img src="../assist/images/logout.svg" />
+              </a>
+            </i>
+          </div>
+        </li>
+        <li>
+          <span class="fab-label">Services</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-video">
+              <a href="./services.html">
+                <img src="../assist/images/services.svg" />
+              </a>
+            </i>
+          </div>
+        </li>
+        <li>
+          <span class="fab-label">My Results</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-comments">
+              <a href="./results.html">
+                <img src="../assist/images/results.svg" />
+              </a>
+            </i>
+          </div>
+        </li>
+        <li>
+          <span class="fab-label">Test Registration</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-comment-alt">
+              <a href="./upcomingtests.html">
+                <img src="../assist/images/new.svg" />
+              </a>
+            </i>
+          </div>
+        </li>
+        <li>
+          <span class="fab-label">My Tests</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-comment-alt">
+              <a href="./myregistration.html">
+                <img src="../assist/images/registrations.svg" />
+              </a>
+            </i>
+          </div>
+        </li>
+        <li>
+          <span class="fab-label">My Information</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-comment-alt">
+              <a href="./info.html">
+                <img src="../assist/images/profile.svg" />
+              </a>
+            </i>
+          </div>
+        </li>
+        <li>
+          <span class="fab-label">Dashboard</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-comment-alt">
+              <a href="./dashboard.html">
+                <img src="../assist/images/dashboard.svg" />
+              </a>
+            </i>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div
+      id="mySidenav"
+      class="sidenav"
+      style="
+        display: none;
+        width: 40%;
+        padding: 0;
+        font-size: 1.15em;
+        background: #0e4c8d;
+        padding-top: 50px;
+        z-index: 9999;
+      "
+    >
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="../index.html" id="a_1"
+        ><img src="../assist/images/side-nav.png" id="img_1" alt="est" />
+      </a>
+      <a href="/html/about.html">About</a>
+      <a href="/html/news.html">News</a>
+      <a href="/html/news.html">Teacher Resources</a>
+      <a href="/html/faqs.html">FAQs</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <script type="text/javascript" src="../js/info.js"></script>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.display = "block";
+        document.getElementById("mySidenav").style.width = "46%";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+
+      function logout() {
+        localStorage.clear();
+      }
+    </script>
+
+    <script>
+      const accessToken = localStorage.getItem("token");
+
+      if (!accessToken) {
+        window.location.href = "../index.html";
+      }
+    </script>
+  </body>
+</html>

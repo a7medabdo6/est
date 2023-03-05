@@ -1,0 +1,1570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/info.css" />
+    <link rel="stylesheet" href="../floating button/fab.css" />
+    <link rel="stylesheet" href="../css/side-nav.css" />
+
+    <title>my info</title>
+  </head>
+  <body>
+    <div id="__next">
+      <div class="jss4">
+        <div class="MuiContainer-root MuiContainer-maxWidthLg">
+          <div class="jss1">
+            <div class="jss3">
+              <a href="/"><img src="../assist/images/3.jpg" alt="est" /></a>
+            </div>
+            <div class="jss5">
+              <div>
+                <div class="jss13">
+                  <div class="jss12">
+                    <img src="" class="student-img" alt="profile" />
+                  </div>
+                  <div>
+                    <a href="/info"><h5 class="student-nick-name"></h5></a>
+                    <h6>Student</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="bm-overlay"
+            style="
+              position: fixed;
+              z-index: 1000;
+              width: 100%;
+              height: 100%;
+              background: rgba(0, 0, 0, 0.3);
+              opacity: 0;
+              -moz-transform: translate3d(100%, 0, 0);
+              -ms-transform: translate3d(100%, 0, 0);
+              -o-transform: translate3d(100%, 0, 0);
+              -webkit-transform: translate3d(100%, 0, 0);
+              transform: translate3d(100%, 0, 0);
+              transition: opacity 0.3s, transform 0s 0.3s;
+            "
+          ></div>
+          <div>
+            <div class="bm-burger-button" style="z-index: 1000">
+              <button
+              onclick="openNav()"
+                id="react-burger-menu-btn"
+                style="
+                  position: absolute;
+                  left: 0;
+                  top: 0;
+                  z-index: 1;
+                  width: 100%;
+                  height: 100%;
+                  margin: 0;
+                  padding: 0;
+                  border: none;
+                  font-size: 0;
+                  background: transparent;
+                  cursor: pointer;
+                "
+              >
+                Open Menu</button
+              ><span
+                ><span
+                  class="bm-burger-bars"
+                  style="
+                    position: absolute;
+                    height: 20%;
+                    left: 0;
+                    right: 0;
+                    top: 0%;
+                    opacity: 1;
+                  "
+                ></span
+                ><span
+                  class="bm-burger-bars"
+                  style="
+                    position: absolute;
+                    height: 20%;
+                    left: 0;
+                    right: 0;
+                    top: 40%;
+                    opacity: 1;
+                  "
+                ></span
+                ><span
+                  class="bm-burger-bars"
+                  style="
+                    position: absolute;
+                    height: 20%;
+                    left: 0;
+                    right: 0;
+                    top: 80%;
+                    opacity: 1;
+                  "
+                ></span
+              ></span>
+            </div>
+          </div>
+          <div
+            id=""
+            class="bm-menu-wrap"
+            style="
+              position: fixed;
+              right: inherit;
+              z-index: 1100;
+              width: 300px;
+              height: 100%;
+              -moz-transform: translate3d(-300px, 0, 0);
+              -ms-transform: translate3d(-300px, 0, 0);
+              -o-transform: translate3d(-300px, 0, 0);
+              -webkit-transform: translate3d(-300px, 0, 0);
+              transform: translate3d(-300px, 0, 0);
+              transition: transform 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+            "
+            aria-hidden="true"
+          >
+            <div
+              class="bm-menu"
+              style="height: 100%; box-sizing: border-box; overflow: auto"
+            >
+              <nav class="bm-item-list" style="height: 100%">
+                <div
+                  class="MuiGrid-root bm-item MuiGrid-item MuiGrid-grid-lg-9"
+                  style="
+                    display: block;
+                    -moz-transform: translate3d(0, 500px, 0);
+                    -ms-transform: translate3d(0, 500px, 0);
+                    -o-transform: translate3d(0, 500px, 0);
+                    -webkit-transform: translate3d(0, 500px, 0);
+                    transform: translate3d(0, 500px, 0);
+                    transition: transform 0s 0.2s cubic-bezier(0.7, 0, 0.3, 1);
+                  "
+                  tabindex="-1"
+                >
+                  <a href="/"
+                    ><img src="../assist/images/2.png" alt="est" />
+                  </a>
+                  <ul>
+                    <li><a href="/html/about.html">About</a></li>
+                    <li><a href="/html/dashboard.html">Dashboard</a></li>
+                    <!-- <li>
+                      <a href="/html/upcomingtests.html">Registrations</a>
+                    </li> -->
+                    <li><a href="/html/news.html">News</a></li>
+                    <li>
+                      <a href="/news?filter=Teacher+Resources"
+                        >Teacher Resources</a
+                      >
+                    </li>
+                    <li><a href="/html/faqs.html">FAQs</a></li>
+                    <li>
+                      <a href="mailto:tests@egyptianscholastictest.com"
+                        >Contact Us</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <div>
+              <div
+                class="bm-cross-button"
+                style="
+                  position: absolute;
+                  width: 24px;
+                  height: 24px;
+                  right: 8px;
+                  top: 8px;
+                "
+              >
+                <button
+                  id="react-burger-cross-btn"
+                  style="
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    z-index: 1;
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                    border: none;
+                    font-size: 0;
+                    background: transparent;
+                    cursor: pointer;
+                  "
+                  tabindex="-1"
+                >
+                  Close Menu</button
+                ><img
+                  src="../../static/images/cancel.svg"
+                  class="bm-cross"
+                  style="width: 100%; height: 100%"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="MuiContainer-root MuiContainer-maxWidthLg">
+          <div class="MuiContainer-root MuiContainer-maxWidthLg">
+            <div class="MuiContainer-root MuiContainer-maxWidthLg"></div>
+          </div>
+          <div class="MuiContainer-root MuiContainer-maxWidthLg"></div>
+        </div>
+      </div>
+      <div class="jss26">
+        <div class="MuiContainer-root MuiContainer-maxWidthLg">
+          <div class="MuiGrid-root MuiGrid-container">
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-2 MuiGrid-grid-lg-2"
+            >
+              <div class="jss28">
+                <a href="/"><img src="../assist/images/3.jpg" alt="est" /></a>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+            >
+              <div class="jss23">
+                <ul class="jss24">
+                  <li><a href="/html/about.html">About</a></li>
+                  <li><a href="/html/dashboard.html">Dashboard</a></li>
+                  <!-- <li><a href="/html/upcomingtests.html">Registrations</a></li> -->
+                  <li><a href="/html/news.html">News</a></li>
+                  <li>
+                    <a href="/news?filter=Teacher+Resources"
+                      >Teacher Resources</a
+                    >
+                  </li>
+                  <li><a href="/html/faqs.html">FAQs</a></li>
+                  <li>
+                    <a href="mailto:tests@egyptianscholastictest.com"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+                <div class="jss36">
+                  <div class="jss35">
+                    <img src="" class="student-img" alt="profile" />
+                  </div>
+                  <div>
+                    <a href="/info"><h5 class="student-nick-name"></h5></a>
+                    <h6>Student</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="MuiContainer-root MuiContainer-maxWidthLg">
+          <div class="MuiContainer-root MuiContainer-maxWidthLg">
+            <div class="MuiContainer-root MuiContainer-maxWidthLg"></div>
+          </div>
+          <div class="MuiContainer-root MuiContainer-maxWidthLg"></div>
+        </div>
+      </div>
+      <div class="mainContainer">
+        <div class="jss91">
+          <div class="MuiGrid-root MuiGrid-container">
+            <div class="jss92">
+              <div class="jss48">
+                <div class="MuiBox-root css-w6ncdo">
+                  <div
+                    aria-hidden="true"
+                    class="MuiBackdrop-root css-um19vb"
+                    style="opacity: 0; visibility: hidden"
+                  ></div>
+                </div>
+              </div>
+              <div class="jss44">
+                <ul>
+                  <li>
+                    <div class="jss46">
+                      <a class="" href="/html/dashboard.html"
+                        ><img src="../assist/images/dashboard.svg" />
+                        Dashboard</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jss46">
+                      <a class="active" href="/html/info.html"
+                        ><img src="../assist/images/profile.svg" />My
+                        Information</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jss46">
+                      <a class="" href="/html/myregistration.html"
+                        ><img src="../assist/images/registrations.svg" />My
+                        Tests</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jss46">
+                      <a class="" href="/html/upcomingtests.html"
+                        ><img src="../assist/images/new.svg" />Test
+                        Registration</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jss46">
+                      <a class="" href="/html/results.html"
+                        ><img src="../assist/images/results.svg" /> My
+                        Results</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jss46">
+                      <a class="" href="/html/services.html"
+                        ><img src="../assist/images/services.svg" />Services</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="jss46">
+                      <a href="../index.html" onclick="logout()"
+                        ><img src="../assist/images/logout.svg" /> Logout</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="jss93">
+              <div class="jss94">
+                <div class="jss95">
+                  <div class="jss96">
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-lg-3"
+                      >
+                        <div>
+                          <form autocomplete="off" novalidate="">
+                            <div class="jss98">
+                              <div
+                                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+                              >
+                                <div class="jss99 uploadinfo">
+                                  <div
+                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-12"
+                                  >
+                                    <div class="jss101 uploadinfoPhoto">
+                                      <div>
+                                        <svg
+                                          class="MuiSvgIcon-root"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                          aria-hidden="true"
+                                        >
+                                          <path
+                                            d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
+                                          ></path>
+                                        </svg>
+                                      </div>
+                                      <object
+                                        class="student-img"
+                                        data=""
+                                        type="image/png"
+                                      >
+                                        <img
+                                          src="../../../../static/images/pdf.svg"
+                                        />
+                                      </object>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-lg-9"
+                      >
+                        <ul class="jss97">
+                          <li>
+                            English Name:
+                            <span id="english-name"></span>
+                          </li>
+                          <li>
+                            Arabic Name:
+                            <span id="arabic-name"></span>
+                          </li>
+                          <li>Gender: <span class="gender"></span></li>
+                          <li>Date of Birth: <span id="birth-date"></span></li>
+                          <li>
+                            National ID Number:
+                            <span class="national-id"></span>
+                          </li>
+                          <li>
+                            Passport Number: <span class="passport-num"></span>
+                          </li>
+                          <li>
+                            Email Address: <span class="email-address"></span>
+                          </li>
+                          <li>
+                            Nationality: <span class="nationality"></span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <form autocomplete="off" novalidate="">
+                  <div class="MuiGrid-root MuiGrid-container">
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-lg-10"
+                    >
+                      <div class="jss108">
+                        <div class="absBTN">
+                          <div>
+                            <button class="jss109" tye="submit">
+                              Save changes
+                            </button>
+                          </div>
+                        </div>
+                        <h3>Personal Information</h3>
+                        <h5 class="jss107"></h5>
+                        <div
+                          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+                        >
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-lg-5"
+                          >
+                            <p>Mobile Number:</p>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7 MuiGrid-grid-lg-7"
+                          >
+                            <div class="inputContainer">
+                              <h6></h6>
+                              <div class="jss111">
+                                <div class="jss113">+2</div>
+                                <div
+                                  class="MuiFormControl-root MuiTextField-root jss112"
+                                  tel="+2"
+                                >
+                                  <div
+                                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                                  >
+                                    <input
+                                      aria-invalid="false"
+                                      autocomplete="off"
+                                      id="phone"
+                                      name="phone"
+                                      placeholder=""
+                                      type="text"
+                                      class="MuiInputBase-input MuiOutlinedInput-input"
+                                      value=""
+                                    />
+                                    <fieldset
+                                      aria-hidden="true"
+                                      class="jss114 MuiOutlinedInput-notchedOutline"
+                                      style="padding-left: 8px"
+                                    >
+                                      <legend
+                                        class="jss115"
+                                        style="width: 0.01px"
+                                      >
+                                        <span>​</span>
+                                      </legend>
+                                    </fieldset>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <h6>* Make sure you enter a valid number</h6>
+                          </div>
+                        </div>
+                        <div
+                          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+                        >
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-lg-5"
+                          >
+                            <p>Landline:</p>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7 MuiGrid-grid-lg-7"
+                          >
+                            <div class="inputContainer">
+                              <h6></h6>
+                              <div class="jss110">
+                                <div
+                                  class="MuiFormControl-root MuiTextField-root jss112"
+                                  tel=""
+                                >
+                                  <div
+                                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                                  >
+                                    <input
+                                      aria-invalid="false"
+                                      autocomplete="off"
+                                      id="landline"
+                                      name="landline"
+                                      placeholder=""
+                                      type="text"
+                                      class="MuiInputBase-input MuiOutlinedInput-input"
+                                      value=""
+                                    />
+                                    <fieldset
+                                      aria-hidden="true"
+                                      class="jss114 MuiOutlinedInput-notchedOutline"
+                                      style="padding-left: 8px"
+                                    >
+                                      <legend
+                                        class="jss115"
+                                        style="width: 0.01px"
+                                      >
+                                        <span>​</span>
+                                      </legend>
+                                    </fieldset>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <form autocomplete="off" novalidate="">
+                  <div class="MuiGrid-root MuiGrid-container">
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-lg-10"
+                    >
+                      <div class="jss108">
+                        <div class="absBTN">
+                          <div>
+                            <button class="jss109" tye="submit">
+                              Save changes
+                            </button>
+                          </div>
+                        </div>
+                        <div>
+                          <h3>Address</h3>
+                          <h5 class="jss119"></h5>
+                          <div
+                            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+                          >
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-lg-5"
+                            >
+                              <p>Country &amp; City:</p>
+                            </div>
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7 MuiGrid-grid-lg-7"
+                            >
+                              <div
+                                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+                              >
+                                <div
+                                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-lg-6"
+                                >
+                                  <div class="jss120">
+                                    <div class="MuiFormControl-root">
+                                      <label
+                                        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+                                        data-shrink="true"
+                                        id="demo-customized-select-label"
+                                        >Country</label
+                                      >
+                                      <div
+                                        class="MuiInputBase-root MuiOutlinedInput-root jss121 MuiInputBase-formControl"
+                                        anchororigin="[object Object]"
+                                        transformorigin="[object Object]"
+                                        list="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+                                        inputlabel="Country"
+                                      >
+                                        <div
+                                          class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+                                          tabindex="0"
+                                          role="button"
+                                          aria-haspopup="listbox"
+                                          aria-labelledby="demo-customized-select-label mui-component-select-country"
+                                          id="mui-component-select-country"
+                                        >
+                                          Egypt
+                                        </div>
+                                        <input
+                                          name="country"
+                                          aria-hidden="true"
+                                          tabindex="-1"
+                                          class="MuiSelect-nativeInput"
+                                          value="606c1c0838e2c14fb3a352da"
+                                        /><svg
+                                          class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+                                          focusable="false"
+                                          viewBox="0 0 24 24"
+                                          aria-hidden="true"
+                                        >
+                                          <path
+                                            d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                                          ></path>
+                                        </svg>
+                                        <fieldset
+                                          aria-hidden="true"
+                                          class="jss114 MuiOutlinedInput-notchedOutline"
+                                          style="padding-left: 8px"
+                                        >
+                                          <legend
+                                            class="jss115"
+                                            style="width: 0.01px"
+                                          >
+                                            <span>​</span>
+                                          </legend>
+                                        </fieldset>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-lg-6"
+                                >
+                                  <div class="jss110">
+                                    <div
+                                      class="MuiFormControl-root MuiTextField-root jss112"
+                                    >
+                                      <div
+                                        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                                      >
+                                        <input
+                                          aria-invalid="false"
+                                          autocomplete="off"
+                                          id="outlined-secondary"
+                                          name="addresses.city"
+                                          placeholder="City name"
+                                          type="text"
+                                          class="MuiInputBase-input MuiOutlinedInput-input city"
+                                          value=""
+                                        />
+                                        <fieldset
+                                          aria-hidden="true"
+                                          class="jss114 MuiOutlinedInput-notchedOutline"
+                                          style="padding-left: 8px"
+                                        >
+                                          <legend
+                                            class="jss115"
+                                            style="width: 0.01px"
+                                          >
+                                            <span>​</span>
+                                          </legend>
+                                        </fieldset>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+                          >
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-lg-5"
+                            >
+                              <p>Address:</p>
+                            </div>
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7 MuiGrid-grid-lg-7"
+                            >
+                              <div class="inputContainer">
+                                <h6></h6>
+                                <div class="jss110">
+                                  <div
+                                    class="MuiFormControl-root MuiTextField-root jss112"
+                                  >
+                                    <div
+                                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                                    >
+                                      <input
+                                        aria-invalid="false"
+                                        autocomplete="off"
+                                        id="addresses.address1"
+                                        name="addresses.address1"
+                                        type="text"
+                                        class="MuiInputBase-input MuiOutlinedInput-input address"
+                                        value=""
+                                      />
+                                      <fieldset
+                                        aria-hidden="true"
+                                        class="jss114 MuiOutlinedInput-notchedOutline"
+                                        style="padding-left: 8px"
+                                      >
+                                        <legend
+                                          class="jss115"
+                                          style="width: 0.01px"
+                                        >
+                                          <span>​</span>
+                                        </legend>
+                                      </fieldset>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <h6>* Enter your current address details</h6>
+                            </div>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+                          >
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-lg-5"
+                            >
+                              <p>Address 2</p>
+                            </div>
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7 MuiGrid-grid-lg-7"
+                            >
+                              <div class="inputContainer">
+                                <h6>Optional</h6>
+                                <div class="jss110">
+                                  <div
+                                    class="MuiFormControl-root MuiTextField-root jss112"
+                                    tel=""
+                                  >
+                                    <div
+                                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                                    >
+                                      <input
+                                        aria-invalid="false"
+                                        autocomplete="off"
+                                        id="addresses.address2"
+                                        name="addresses.address2"
+                                        placeholder=""
+                                        type="text"
+                                        class="MuiInputBase-input MuiOutlinedInput-input"
+                                        value=""
+                                      />
+                                      <fieldset
+                                        aria-hidden="true"
+                                        class="jss114 MuiOutlinedInput-notchedOutline"
+                                        style="padding-left: 8px"
+                                      >
+                                        <legend
+                                          class="jss115"
+                                          style="width: 0.01px"
+                                        >
+                                          <span>​</span>
+                                        </legend>
+                                      </fieldset>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <form autocomplete="off" novalidate="">
+                  <div class="MuiGrid-root MuiGrid-container">
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-10"
+                    >
+                      <div class="jss108">
+                        <div class="absBTN">
+                          <div>
+                            <button class="jss109" tye="submit">
+                              Save changes
+                            </button>
+                          </div>
+                        </div>
+                        <h2>Personal Identification</h2>
+                        <h5 class="jss124"></h5>
+                        <div
+                          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+                        >
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-lg-5"
+                          >
+                            <p>National ID Number:</p>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7 MuiGrid-grid-lg-7"
+                          >
+                            <div class="inputContainer">
+                              <h6></h6>
+                              <div class="jss110">
+                                <div
+                                  class="MuiFormControl-root MuiTextField-root jss112"
+                                >
+                                  <div
+                                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                                  >
+                                    <input
+                                      aria-invalid="false"
+                                      autocomplete="off"
+                                      id="id.number"
+                                      name="id.number"
+                                      type="text"
+                                      class="MuiInputBase-input MuiOutlinedInput-input"
+                                      value=""
+                                    />
+                                    <fieldset
+                                      aria-hidden="true"
+                                      class="jss114 MuiOutlinedInput-notchedOutline"
+                                      style="padding-left: 8px"
+                                    >
+                                      <legend
+                                        class="jss115"
+                                        style="width: 0.01px"
+                                      >
+                                        <span>​</span>
+                                      </legend>
+                                    </fieldset>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+                        >
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-12"
+                          >
+                            <p>National ID Copy:</p>
+                            <h5 class="jss105"></h5>
+                          </div>
+                          <div class="jss99 uploadinfo">
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-12"
+                            >
+                              <div class="jss101 uploadinfoPhoto">
+                                <div>
+                                  <svg
+                                    class="MuiSvgIcon-root"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                    aria-hidden="true"
+                                  >
+                                    <path
+                                      d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
+                                    ></path>
+                                  </svg>
+                                </div>
+                                <object
+                                  class="id-copy"
+                                  data=""
+                                  type="image/png"
+                                >
+                                  <img
+                                    src="../../../../static/images/pdf.svg"
+                                  />
+                                </object>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <br /><br />
+                        <div
+                          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+                        >
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-lg-5"
+                          >
+                            <p>Passport Number:</p>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7 MuiGrid-grid-lg-7"
+                          >
+                            <div class="inputContainer">
+                              <h6></h6>
+                              <div class="jss110">
+                                <div
+                                  class="MuiFormControl-root MuiTextField-root jss112"
+                                >
+                                  <div
+                                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                                  >
+                                    <input
+                                      aria-invalid="false"
+                                      autocomplete="off"
+                                      id="id.passportNumber"
+                                      name="id.passportNumber"
+                                      type="text"
+                                      class="MuiInputBase-input MuiOutlinedInput-input"
+                                      value=""
+                                    />
+                                    <fieldset
+                                      aria-hidden="true"
+                                      class="jss114 MuiOutlinedInput-notchedOutline"
+                                      style="padding-left: 8px"
+                                    >
+                                      <legend
+                                        class="jss115"
+                                        style="width: 0.01px"
+                                      >
+                                        <span>​</span>
+                                      </legend>
+                                    </fieldset>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <h6>* Make sure you enter a valid number</h6>
+                          </div>
+                        </div>
+
+                        <div
+                          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+                        >
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-12"
+                          >
+                            <p>Passport Copy:</p>
+                            <h5 class="jss105"></h5>
+                          </div>
+                          <div class="jss99 uploadinfo">
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-12"
+                            >
+                              <div class="jss103 uploadInputinfo">
+                                <svg
+                                  class="MuiSvgIcon-root"
+                                  focusable="false"
+                                  viewBox="0 0 24 24"
+                                  aria-hidden="true"
+                                >
+                                  <path
+                                    d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z"
+                                  ></path></svg
+                                ><input
+                                  type="file"
+                                  accept="image/*,.pdf"
+                                  name="photo"
+                                  style="cursor: pointer"
+                                />
+                                <div>
+                                  <p>Drag and drop your image / file here.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <form autocomplete="off" novalidate="">
+                  <div class="MuiGrid-root MuiGrid-container">
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-lg-10"
+                    >
+                      <div class="jss108">
+                        <div class="absBTN">
+                          <div>
+                            <button class="jss109">Save changes</button>
+                          </div>
+                        </div>
+                        <div>
+                          <div
+                            class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
+                          >
+                            <h3>Parent Information</h3>
+                            <h3 class="optional">(optional)</h3>
+                          </div>
+                          <h5 class="jss127"></h5>
+                          <div
+                            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+                          >
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-lg-5"
+                            >
+                              <p>Parent Name:</p>
+                            </div>
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7 MuiGrid-grid-lg-7"
+                            >
+                              <div class="inputContainer">
+                                <h6></h6>
+                                <div class="jss110">
+                                  <div
+                                    class="MuiFormControl-root MuiTextField-root jss112"
+                                  >
+                                    <div
+                                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                                    >
+                                      <input
+                                        aria-invalid="false"
+                                        autocomplete="off"
+                                        id="parentalInfo[0].name"
+                                        name="parentalInfo[0].name"
+                                        type="text"
+                                        class="MuiInputBase-input MuiOutlinedInput-input"
+                                        value=""
+                                      />
+                                      <fieldset
+                                        aria-hidden="true"
+                                        class="jss114 MuiOutlinedInput-notchedOutline"
+                                        style="padding-left: 8px"
+                                      >
+                                        <legend
+                                          class="jss115"
+                                          style="width: 0.01px"
+                                        >
+                                          <span>​</span>
+                                        </legend>
+                                      </fieldset>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+                          >
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-lg-5"
+                            >
+                              <p>Email:</p>
+                            </div>
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7 MuiGrid-grid-lg-7"
+                            >
+                              <div class="inputContainer">
+                                <h6></h6>
+                                <div class="jss110">
+                                  <div
+                                    class="MuiFormControl-root MuiTextField-root jss112"
+                                  >
+                                    <div
+                                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                                    >
+                                      <input
+                                        aria-invalid="false"
+                                        autocomplete="off"
+                                        id="parentalInfo[0].email"
+                                        name="parentalInfo[0].email"
+                                        type="text"
+                                        class="MuiInputBase-input MuiOutlinedInput-input"
+                                        value=""
+                                      />
+                                      <fieldset
+                                        aria-hidden="true"
+                                        class="jss114 MuiOutlinedInput-notchedOutline"
+                                        style="padding-left: 8px"
+                                      >
+                                        <legend
+                                          class="jss115"
+                                          style="width: 0.01px"
+                                        >
+                                          <span>​</span>
+                                        </legend>
+                                      </fieldset>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+                          >
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-lg-5"
+                            >
+                              <p>Relationship:</p>
+                            </div>
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7 MuiGrid-grid-lg-7"
+                            >
+                              <div class="jss120">
+                                <div class="MuiFormControl-root">
+                                  <div
+                                    class="MuiInputBase-root MuiOutlinedInput-root jss121 MuiInputBase-formControl"
+                                    anchororigin="[object Object]"
+                                    transformorigin="[object Object]"
+                                    list="[object Object],[object Object],[object Object]"
+                                  >
+                                    <div
+                                      class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+                                      tabindex="0"
+                                      role="button"
+                                      aria-haspopup="listbox"
+                                      aria-labelledby="demo-customized-select-label mui-component-select-parentalInfo[0].relation"
+                                      id="mui-component-select-parentalInfo[0].relation"
+                                    ></div>
+                                    <input
+                                      name="parentalInfo[0].relation"
+                                      aria-hidden="true"
+                                      tabindex="-1"
+                                      class="MuiSelect-nativeInput"
+                                      value=""
+                                    /><svg
+                                      class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+                                      focusable="false"
+                                      viewBox="0 0 24 24"
+                                      aria-hidden="true"
+                                    >
+                                      <path
+                                        d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                                      ></path>
+                                    </svg>
+                                    <fieldset
+                                      aria-hidden="true"
+                                      class="jss114 MuiOutlinedInput-notchedOutline"
+                                      style="padding-left: 8px"
+                                    >
+                                      <legend
+                                        class="jss115"
+                                        style="width: 0.01px"
+                                      >
+                                        <span>​</span>
+                                      </legend>
+                                    </fieldset>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <form autocomplete="off" novalidate="">
+                  <div class="MuiGrid-root MuiGrid-container">
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-lg-10"
+                    >
+                      <div class="jss108">
+                        <div class="absBTN">
+                          <div>
+                            <button class="jss109" tye="submit">
+                              Save changes
+                            </button>
+                          </div>
+                        </div>
+                        <div>
+                          <h3>School Information</h3>
+                          <h5></h5>
+                          <div
+                            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+                          >
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-lg-5"
+                            >
+                              <p>School Name:</p>
+                            </div>
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7 MuiGrid-grid-lg-7"
+                            >
+                              <div class="jss120">
+                                <div class="MuiFormControl-root">
+                                  <div
+                                    class="MuiInputBase-root MuiOutlinedInput-root jss121 MuiInputBase-formControl"
+                                    anchororigin="[object Object]"
+                                    transformorigin="[object Object]"
+                                    list="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+                                    tickets=""
+                                    service=""
+                                    schools="schools"
+                                  >
+                                    <div
+                                      class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+                                      tabindex="0"
+                                      role="button"
+                                      aria-haspopup="listbox"
+                                      aria-labelledby="demo-customized-select-label mui-component-select-education.school"
+                                      id="mui-component-select-education.school"
+                                    >
+                                      <span class="jss122" id="school_city"
+                                        >-
+                                      </span>
+                                    </div>
+                                    <input
+                                      name="education.school"
+                                      aria-hidden="true"
+                                      tabindex="-1"
+                                      class="MuiSelect-nativeInput"
+                                      value="606b65e067b2b94857a23ee2"
+                                    /><svg
+                                      class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+                                      focusable="false"
+                                      viewBox="0 0 24 24"
+                                      aria-hidden="true"
+                                    >
+                                      <path
+                                        d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                                      ></path>
+                                    </svg>
+                                    <fieldset
+                                      aria-hidden="true"
+                                      class="jss114 MuiOutlinedInput-notchedOutline"
+                                      style="padding-left: 8px"
+                                    >
+                                      <legend
+                                        class="jss115"
+                                        style="width: 0.01px"
+                                      >
+                                        <span>​</span>
+                                      </legend>
+                                    </fieldset>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+                          >
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-lg-5"
+                            >
+                              <p>Grade:</p>
+                            </div>
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7 MuiGrid-grid-lg-7"
+                            >
+                              <div class="jss120">
+                                <div class="MuiFormControl-root">
+                                  <div
+                                    class="MuiInputBase-root MuiOutlinedInput-root jss121 MuiInputBase-formControl"
+                                    anchororigin="[object Object]"
+                                    transformorigin="[object Object]"
+                                    list="[object Object],[object Object],[object Object]"
+                                  >
+                                    <div
+                                      class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+                                      tabindex="0"
+                                      role="button"
+                                      aria-haspopup="listbox"
+                                      aria-labelledby="demo-customized-select-label mui-component-select-education.grade"
+                                      id="mui-component-select-education.grade"
+                                    ></div>
+                                    <input
+                                      name="education.grade"
+                                      aria-hidden="true"
+                                      tabindex="-1"
+                                      id="grade"
+                                      class="MuiSelect-nativeInput"
+                                      value=""
+                                    /><svg
+                                      class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+                                      focusable="false"
+                                      viewBox="0 0 24 24"
+                                      aria-hidden="true"
+                                    >
+                                      <path
+                                        d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                                      ></path>
+                                    </svg>
+                                    <fieldset
+                                      aria-hidden="true"
+                                      class="jss114 MuiOutlinedInput-notchedOutline"
+                                      style="padding-left: 8px"
+                                    >
+                                      <legend
+                                        class="jss115"
+                                        style="width: 0.01px"
+                                      >
+                                        <span>​</span>
+                                      </legend>
+                                    </fieldset>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+                          >
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-lg-5"
+                            >
+                              <p>Year of Graduation:</p>
+                            </div>
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7 MuiGrid-grid-lg-7"
+                            >
+                              <div class="jss120">
+                                <div class="MuiFormControl-root">
+                                  <div
+                                    class="MuiInputBase-root MuiOutlinedInput-root jss121 MuiInputBase-formControl"
+                                    anchororigin="[object Object]"
+                                    transformorigin="[object Object]"
+                                    list="[object Object],[object Object],[object Object],[object Object]"
+                                  >
+                                    <div
+                                      class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+                                      tabindex="0"
+                                      role="button"
+                                      aria-haspopup="listbox"
+                                      aria-labelledby="demo-customized-select-label mui-component-select-education.schoolGraduationDate"
+                                      id="mui-component-select-education.schoolGraduationDate"
+                                    ></div>
+                                    <input
+                                      name="education.schoolGraduationDate"
+                                      aria-hidden="true"
+                                      tabindex="-1"
+                                      class="MuiSelect-nativeInput"
+                                      id="grade_year"
+                                      value=""
+                                    /><svg
+                                      class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+                                      focusable="false"
+                                      viewBox="0 0 24 24"
+                                      aria-hidden="true"
+                                    >
+                                      <path
+                                        d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                                      ></path>
+                                    </svg>
+                                    <fieldset
+                                      aria-hidden="true"
+                                      class="jss114 MuiOutlinedInput-notchedOutline"
+                                      style="padding-left: 8px"
+                                    >
+                                      <legend
+                                        class="jss115"
+                                        style="width: 0.01px"
+                                      >
+                                        <span>​</span>
+                                      </legend>
+                                    </fieldset>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="jss60">
+          <div class="MuiContainer-root MuiContainer-maxWidthLg">
+            <div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-3 MuiGrid-grid-lg-3"
+              >
+                <li class="jss62">
+                  <a href="/"
+                    ><img alt="logo" src="../assist/images/2.png"
+                  /></a>
+                </li>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-9 MuiGrid-grid-lg-7"
+              >
+                <ul class="jss66"></ul>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-lg-2"
+              >
+                <div class="jss63">
+                  <ul class="jss64">
+                    <li>
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 320 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                        ></path>
+                      </svg>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/c/EgyptianScholasticTest"
+                        target="_blank"
+                        ><svg
+                          stroke="currentColor"
+                          fill="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 1024 1024"
+                          height="1em"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M960 509.2c0-2.2 0-4.7-.1-7.6-.1-8.1-.3-17.2-.5-26.9-.8-27.9-2.2-55.7-4.4-81.9-3-36.1-7.4-66.2-13.4-88.8a139.52 139.52 0 0 0-98.3-98.5c-28.3-7.6-83.7-12.3-161.7-15.2-37.1-1.4-76.8-2.3-116.5-2.8-13.9-.2-26.8-.3-38.4-.4h-29.4c-11.6.1-24.5.2-38.4.4-39.7.5-79.4 1.4-116.5 2.8-78 3-133.5 7.7-161.7 15.2A139.35 139.35 0 0 0 82.4 304C76.3 326.6 72 356.7 69 392.8c-2.2 26.2-3.6 54-4.4 81.9-.3 9.7-.4 18.8-.5 26.9 0 2.9-.1 5.4-.1 7.6v5.6c0 2.2 0 4.7.1 7.6.1 8.1.3 17.2.5 26.9.8 27.9 2.2 55.7 4.4 81.9 3 36.1 7.4 66.2 13.4 88.8 12.8 47.9 50.4 85.7 98.3 98.5 28.2 7.6 83.7 12.3 161.7 15.2 37.1 1.4 76.8 2.3 116.5 2.8 13.9.2 26.8.3 38.4.4h29.4c11.6-.1 24.5-.2 38.4-.4 39.7-.5 79.4-1.4 116.5-2.8 78-3 133.5-7.7 161.7-15.2 47.9-12.8 85.5-50.5 98.3-98.5 6.1-22.6 10.4-52.7 13.4-88.8 2.2-26.2 3.6-54 4.4-81.9.3-9.7.4-18.8.5-26.9 0-2.9.1-5.4.1-7.6v-5.6zm-72 5.2c0 2.1 0 4.4-.1 7.1-.1 7.8-.3 16.4-.5 25.7-.7 26.6-2.1 53.2-4.2 77.9-2.7 32.2-6.5 58.6-11.2 76.3-6.2 23.1-24.4 41.4-47.4 47.5-21 5.6-73.9 10.1-145.8 12.8-36.4 1.4-75.6 2.3-114.7 2.8-13.7.2-26.4.3-37.8.3h-28.6l-37.8-.3c-39.1-.5-78.2-1.4-114.7-2.8-71.9-2.8-124.9-7.2-145.8-12.8-23-6.2-41.2-24.4-47.4-47.5-4.7-17.7-8.5-44.1-11.2-76.3-2.1-24.7-3.4-51.3-4.2-77.9-.3-9.3-.4-18-.5-25.7 0-2.7-.1-5.1-.1-7.1v-4.8c0-2.1 0-4.4.1-7.1.1-7.8.3-16.4.5-25.7.7-26.6 2.1-53.2 4.2-77.9 2.7-32.2 6.5-58.6 11.2-76.3 6.2-23.1 24.4-41.4 47.4-47.5 21-5.6 73.9-10.1 145.8-12.8 36.4-1.4 75.6-2.3 114.7-2.8 13.7-.2 26.4-.3 37.8-.3h28.6l37.8.3c39.1.5 78.2 1.4 114.7 2.8 71.9 2.8 124.9 7.2 145.8 12.8 23 6.2 41.2 24.4 47.4 47.5 4.7 17.7 8.5 44.1 11.2 76.3 2.1 24.7 3.4 51.3 4.2 77.9.3 9.3.4 18 .5 25.7 0 2.7.1 5.1.1 7.1v4.8zM423 646l232-135-232-133z"
+                          ></path></svg
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="jss61">
+              <p>
+                Copyright
+                <!-- -->2022<!-- -->
+                by Egyptian Scholastic Test | All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="fixedone"></div>
+    <div class="fab-container">
+      <div class="fab fab-icon-holder">
+        <svg
+          class="svgClass"
+          focusable="false"
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+          data-testid="MenuIcon"
+        >
+          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+        </svg>
+      </div>
+
+      <ul class="fab-options">
+        <li>
+          <span class="fab-label">Logout</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-file-alt">
+              <a href="../index.html" id="logout" onclick="logout()">
+                <img src="../assist/images/logout.svg" />
+              </a>
+            </i>
+          </div>
+        </li>
+        <li>
+          <span class="fab-label">Services</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-video">
+              <a href="./services.html">
+                <img src="../assist/images/services.svg" />
+              </a>
+            </i>
+          </div>
+        </li>
+        <li>
+          <span class="fab-label">My Results</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-comments">
+              <a href="./results.html">
+                <img src="../assist/images/results.svg" />
+              </a>
+            </i>
+          </div>
+        </li>
+        <li>
+          <span class="fab-label">Test Registration</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-comment-alt">
+              <a href="./upcomingtests.html">
+                <img src="../assist/images/new.svg" />
+              </a>
+            </i>
+          </div>
+        </li>
+        <li>
+          <span class="fab-label">My Tests</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-comment-alt">
+              <a href="./myregistration.html">
+                <img src="../assist/images/registrations.svg" />
+              </a>
+            </i>
+          </div>
+        </li>
+        <li>
+          <span class="fab-label">My Information</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-comment-alt">
+              <a href="./info.html">
+                <img src="../assist/images/profile.svg" />
+              </a>
+            </i>
+          </div>
+        </li>
+        <li>
+          <span class="fab-label">Dashboard</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-comment-alt">
+              <a href="./dashboard.html">
+                <img src="../assist/images/dashboard.svg" />
+              </a>
+            </i>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div
+      id="mySidenav"
+      class="sidenav"
+      style="
+        display: none;
+        width: 40%;
+        padding: 0;
+        font-size: 1.15em;
+        background: #0e4c8d;
+        padding-top: 50px;
+        z-index: 9999;
+      "
+    >
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a  href="../index.html" id="a_1"
+        ><img src="../assist/images/side-nav.png" id="img_1" alt="est" />
+      </a>
+      <a href="/html/about.html"">About</a>
+      <a href="/html/news.html">News</a>
+      <a href="/html/news.html">Teacher Resources</a>
+      <a href="/html/faqs.html">FAQs</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.display = "block";
+        document.getElementById("mySidenav").style.width = "46%";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+
+      function logout() {
+        localStorage.clear();
+      }
+    </script>
+
+    <script type="text/javascript" src="../js/info.js"></script>
+
+    <script>
+      const accessToken = localStorage.getItem("token");
+
+      if (!accessToken) {
+        window.location.href = "./index.html";
+      }
+    </script>
+  </body>
+</html>
