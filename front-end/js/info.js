@@ -2,7 +2,7 @@ const token = localStorage.getItem("token");
 let src;
 let idSrc;
 
-fetch("http://165.227.163.66/api/profile", {
+fetch("http://64.226.80.205/api/profile", {
   method: "GET",
   headers: { Authorization: `Bearer ${token}` },
 })
