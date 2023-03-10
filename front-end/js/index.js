@@ -30,7 +30,7 @@ const loginBtn = document.getElementById("submitBtn");
 
 loginBtn.addEventListener("click", () => {
     const data = { email: email.value, password: password.value };
-    fetch("http://64.226.80.205/api/login", {
+    fetch("http://www.egyptianscholastictests.org/api/login", {
       method: "POST",
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify(data)
