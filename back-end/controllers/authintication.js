@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 
 exports.userLogin = (req, res, next) => {
-  if (req.body.email == "amrabdo33877@gmail.com") {
+  if (req.body.email == "amrabdo33877@gmail.com"|| req.body.email =="amr.abdel-gawad.am@manaratelmostaqbal.edu.eg) {
     let token = jwt.sign(
       {
         email: req.body.email,
